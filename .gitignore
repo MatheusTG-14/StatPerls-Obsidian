@@ -36,3 +36,4 @@ venv/
 .claude/
 .DS_Store
 Thumbs.db
+statperls_vaultbuilder/
