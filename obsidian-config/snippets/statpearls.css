@@ -1,0 +1,308 @@
+/* StatPearls look for the StatPearls vault: palette from statpearls.com, modern spin.
+   Hand-made, not pipeline-owned. Selectors target Obsidian 1.12. */
+
+body {
+  --sp-navy: #18214d;
+  --sp-ink: #101828;
+  --sp-slate: #475467;
+  --sp-blue: #016eb8;
+  --sp-teal: #0b7b73;
+  --sp-mint: #71cfc1;
+  --sp-mist: #e6f1f8;
+  --sp-line: #dfe4ea;
+  --sp-surface: #f6f8fb;
+
+  --font-text-theme: "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
+  --font-interface-theme: "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
+  --file-line-width: 46rem;
+  --line-height-normal: 1.65;
+}
+
+body.theme-light {
+  --background-primary: #ffffff;
+  --background-secondary: var(--sp-surface);
+  --text-normal: var(--sp-ink);
+  --text-muted: var(--sp-slate);
+  --text-accent: var(--sp-blue);
+  --interactive-accent: var(--sp-teal);
+  --link-color: var(--sp-blue);
+  --link-external-color: var(--sp-blue);
+  --link-unresolved-color: var(--sp-slate);
+  --h1-color: var(--sp-navy);
+  --h2-color: var(--sp-navy);
+  --h3-color: var(--sp-navy);
+  --h4-color: var(--sp-navy);
+  --hr-color: var(--sp-line);
+  --table-border-color: var(--sp-line);
+  --table-header-background: var(--sp-mist);
+  --sp-callout-bg: var(--sp-mist);
+}
+
+body.theme-dark {
+  --sp-navy: #c9d6f2;
+  --sp-ink: #dde3ec;
+  --sp-slate: #98a2b3;
+  --sp-blue: #5fb0ee;
+  --sp-mint: #4fb8a8;
+  --sp-mist: #1b2440;
+  --sp-line: #2c3654;
+  --sp-surface: #121931;
+  --background-primary: #0e1428;
+  --background-secondary: var(--sp-surface);
+  --text-normal: var(--sp-ink);
+  --text-muted: var(--sp-slate);
+  --text-accent: var(--sp-blue);
+  --interactive-accent: var(--sp-mint);
+  --link-color: var(--sp-blue);
+  --link-external-color: var(--sp-blue);
+  --link-unresolved-color: var(--sp-slate);
+  --h1-color: var(--sp-navy);
+  --h2-color: var(--sp-navy);
+  --h3-color: var(--sp-navy);
+  --h4-color: var(--sp-navy);
+  --hr-color: var(--sp-line);
+  --table-border-color: var(--sp-line);
+  --table-header-background: var(--sp-mist);
+  --sp-callout-bg: var(--sp-mist);
+}
+
+/* ---------- headings ---------- */
+
+.markdown-rendered h1,
+.markdown-source-view .inline-title,
+.markdown-preview-view .inline-title {
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  color: var(--sp-navy);
+}
+
+/* H2: section header with the mint bar the site uses */
+.markdown-rendered h2,
+.markdown-source-view.mod-cm6 .HyperMD-header-2 {
+  font-weight: 600;
+  padding-bottom: 0.3em;
+  border-bottom: 3px solid var(--sp-mint);
+  margin-top: 1.8em;
+}
+.markdown-rendered h3,
+.markdown-source-view.mod-cm6 .HyperMD-header-3 {
+  font-weight: 600;
+  color: var(--sp-teal);
+}
+.theme-dark .markdown-rendered h3,
+.theme-dark .markdown-source-view.mod-cm6 .HyperMD-header-3 {
+  color: var(--sp-mint);
+}
+
+/* ---------- justified body text with hyphenation ---------- */
+
+.markdown-rendered p,
+.markdown-rendered li,
+.markdown-source-view.mod-cm6 .cm-line:not(.HyperMD-header):not(.HyperMD-table-row):not(.HyperMD-codeblock) {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphenate-limit-chars: 7 3 3;
+}
+.markdown-rendered td,
+.markdown-rendered th,
+.markdown-rendered .callout,
+.markdown-rendered figcaption {
+  text-align: start;
+  hyphens: manual;
+}
+
+/* ---------- links and citations ---------- */
+
+.markdown-rendered a,
+.markdown-source-view.mod-cm6 .cm-hmd-internal-link,
+.markdown-source-view.mod-cm6 .cm-link {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+.markdown-rendered a.internal-link,
+.markdown-source-view.mod-cm6 .cm-hmd-internal-link .cm-underline {
+  text-decoration-color: color-mix(in srgb, var(--sp-blue) 35%, transparent);
+}
+
+/* in-text citations [n] -> link to the reference block (reading view can target them) */
+.markdown-rendered a.internal-link[data-href^="#^ref-"] {
+  font-size: 0.8em;
+  font-weight: 500;
+  text-decoration: none;
+  vertical-align: 0.15em;
+  color: var(--sp-blue);
+}
+.markdown-rendered a.internal-link[data-href^="#^ref-"]:hover {
+  text-decoration: underline;
+}
+
+/* ---------- references list: compact ---------- */
+
+.markdown-rendered div:has(> h2[data-heading="References"]) ~ div > ol > li,
+.markdown-rendered div:has(> h2[data-heading="References"]) ~ div > ol > li p {
+  font-size: 0.86em;
+  line-height: 1.45;
+  margin-bottom: 0.25em;
+  color: var(--text-muted);
+  text-align: start;
+  hyphens: manual;
+}
+
+/* ---------- figures ---------- */
+
+.markdown-rendered .internal-embed.image-embed,
+.markdown-rendered .internal-embed.media-embed {
+  display: block;
+  text-align: center;
+  margin: 0.8em auto 0.3em;
+}
+.markdown-rendered .internal-embed img,
+.markdown-source-view.mod-cm6 .internal-embed img {
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.12);
+  max-height: 70vh;
+}
+/* "**Figure N**" label paragraph and the caption after the image */
+.markdown-rendered p:has(+ div > p > .image-embed),
+.markdown-rendered p:has(> .image-embed) + p {
+  font-size: 0.9em;
+  color: var(--text-muted);
+  text-align: start;
+  hyphens: manual;
+}
+
+/* ---------- callouts (the snapshot banner) ---------- */
+
+.callout[data-callout="info"] {
+  --callout-color: 11, 123, 115;
+  background-color: var(--sp-callout-bg);
+  border: 1px solid var(--sp-line);
+  border-left: 4px solid var(--sp-teal);
+  border-radius: 10px;
+  font-size: 0.9em;
+}
+.theme-dark .callout[data-callout="info"] {
+  --callout-color: 79, 184, 168;
+  border-left-color: var(--sp-mint);
+}
+
+/* ---------- tables ---------- */
+
+.markdown-rendered table {
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.92em;
+}
+.markdown-rendered tbody tr:nth-child(even) {
+  background-color: color-mix(in srgb, var(--sp-mist) 55%, transparent);
+}
+
+/* ---------- properties: collapsed by default ----------
+   Obsidian folds Properties when the container has .is-collapsed. This inverts it:
+   folded unless the user clicks the heading (which toggles .is-collapsed on). */
+
+.metadata-container:not(.is-collapsed) > .metadata-content,
+.metadata-container:not(.is-collapsed) > .metadata-add-button {
+  display: none;
+}
+.metadata-container.is-collapsed > .metadata-content {
+  display: block;
+}
+.metadata-container.is-collapsed > .metadata-add-button {
+  display: flex;
+}
+.metadata-container:not(.is-collapsed) .metadata-properties-heading .collapse-indicator svg {
+  transform: rotate(-90deg);
+}
+.metadata-container.is-collapsed .metadata-properties-heading .collapse-indicator svg {
+  transform: none;
+}
+.metadata-container {
+  border-bottom: 1px solid var(--sp-line);
+  padding-bottom: 0.3em;
+}
+
+/* ---------- hub menu bar (first line of every article, DEC-18) ---------- */
+
+.callout[data-callout="hubs"] {
+  --callout-icon: none;
+  padding: 0.35em 0.8em;
+  margin: 0 0 1.2em;
+  background-color: var(--sp-callout-bg);
+  border: none;
+  border-left: 3px solid var(--sp-mint);
+  border-radius: 8px;
+  font-size: 0.85em;
+}
+.callout[data-callout="hubs"] > .callout-title {
+  padding: 0;
+  gap: 0;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+.callout[data-callout="hubs"] > .callout-title > .callout-icon {
+  display: none;
+}
+.callout[data-callout="hubs"] a {
+  color: var(--sp-blue);
+  text-decoration: none;
+}
+.callout[data-callout="hubs"] a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- hub lists (foldable groups on hub pages) ---------- */
+
+.callout[data-callout="hub-list"] {
+  --callout-color: 11, 123, 115;
+  --callout-icon: lucide-list;
+  background-color: transparent;
+  border: 1px solid var(--sp-line);
+  border-radius: 10px;
+}
+.theme-dark .callout[data-callout="hub-list"] {
+  --callout-color: 79, 184, 168;
+}
+.callout[data-callout="hub-list"] > .callout-title {
+  font-weight: 600;
+}
+.callout[data-callout="hub-list"] > .callout-content ul {
+  line-height: 1.5;
+  margin: 0.2em 0;
+}
+.callout[data-callout="hub-list"] > .callout-content li {
+  text-align: start;
+  hyphens: manual;
+  break-inside: avoid;
+}
+@media (min-width: 900px) {
+  .callout[data-callout="hub-list"] > .callout-content ul {
+    columns: 2;
+    column-gap: 2em;
+  }
+}
+
+/* ---------- Search-first Home (local plugin, DEC-24) ---------- */
+.sp-home { margin: 0.5rem 0 1.5rem; }
+.sp-home-search { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+.sp-home-input { flex: 1 1 18rem; font-size: 1.15em; padding: 0.55rem 0.8rem; border: 2px solid var(--sp-blue); border-radius: 8px; }
+.sp-home-input:focus { border-color: var(--sp-teal); box-shadow: 0 0 0 3px color-mix(in srgb, var(--sp-mint) 45%, transparent); }
+.sp-home-modes, .sp-home-web { display: flex; gap: 0.25rem; }
+.sp-home-mode.is-active, .sp-home-chip.is-active { background: var(--sp-teal); color: #fff; }
+.sp-home-web button { background: var(--sp-navy); color: #fff; }
+.sp-home-results { margin-top: 0.75rem; }
+.sp-home-status, .sp-home-empty { color: var(--text-muted); font-size: 0.85em; margin: 0.4rem 0; }
+.sp-home-hit { padding: 0.45rem 0.6rem; border-radius: 6px; cursor: pointer; border-bottom: 1px solid var(--background-modifier-border); }
+.sp-home-hit:hover, .sp-home-hit.is-selected { background: var(--background-secondary); }
+.sp-home-hit-title { font-weight: 600; color: var(--text-accent); }
+.sp-home-hit-sub { font-size: 0.8em; color: var(--text-muted); }
+.sp-home-snippet { font-size: 0.9em; margin-top: 0.15rem; }
+.sp-home-snippet mark { background: color-mix(in srgb, var(--sp-mint) 55%, transparent); color: inherit; border-radius: 2px; }
+.sp-home-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); gap: 0.6rem; margin-top: 1rem; }
+.sp-home-tile { padding: 0.7rem 0.8rem; border-radius: 8px; cursor: pointer; background: var(--background-secondary); border-left: 4px solid var(--sp-teal); }
+.sp-home-tile:hover { border-left-color: var(--sp-blue); }
+.sp-home-tile-name { font-weight: 600; }
+.sp-home-tile-count { font-size: 0.8em; color: var(--text-muted); }
+.sp-home-row { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; margin-top: 0.8rem; }
+.sp-home-row-label { font-weight: 600; margin-right: 0.3rem; color: var(--text-muted); }

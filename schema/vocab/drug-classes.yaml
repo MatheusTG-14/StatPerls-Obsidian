@@ -1,0 +1,93 @@
+# Drug classes (DEC-23), approved by the user 2026-11-02. Tag = drug-class/<slug>. Drug articles only (type/drug).
+# Each article gets one main class and at most one second class; every monoclonal antibody also gets
+# monoclonal-antibodies. "includes" is the guidance shown to the tagging agent.
+# Cardiovascular
+- {slug: beta-blockers, label: "Beta-blockers", area: "Cardiovascular", includes: "beta-adrenergic blockers incl. selective beta-1 blockers"}
+- {slug: ace-inhibitors-and-arbs, label: "ACE inhibitors and ARBs", area: "Cardiovascular", includes: "ACE inhibitors, ARBs, sacubitril-valsartan, ARB combinations"}
+- {slug: calcium-channel-blockers, label: "Calcium channel blockers", area: "Cardiovascular", includes: "dihydropyridine and non-dihydropyridine calcium channel blockers"}
+- {slug: diuretics, label: "Diuretics", area: "Cardiovascular", includes: "loop, thiazide, potassium-sparing, osmotic diuretics, carbonic anhydrase inhibitors"}
+- {slug: antiarrhythmics, label: "Antiarrhythmics", area: "Cardiovascular", includes: "class I-IV antiarrhythmics, adenosine, ivabradine"}
+- {slug: nitrates-and-vasodilators, label: "Nitrates and vasodilators", area: "Cardiovascular", includes: "nitrates, hydralazine, minoxidil, nitroprusside, pulmonary hypertension drugs (bosentan, treprostinil), ranolazine"}
+- {slug: vasopressors-and-inotropes, label: "Vasopressors and inotropes", area: "Cardiovascular", includes: "catecholamines, vasopressin, angiotensin II, milrinone, digoxin"}
+- {slug: alpha-agents-and-central-antihypertensives, label: "Alpha agents and central antihypertensives", area: "Cardiovascular", includes: "alpha-1 blockers, phenoxybenzamine, clonidine, methyldopa"}
+- {slug: lipid-lowering, label: "Lipid-lowering drugs", area: "Cardiovascular", includes: "statins, fibrates, ezetimibe, PCSK9 inhibitors, bile acid sequestrants, bempedoic acid, omega-3"}
+# Blood
+- {slug: anticoagulants, label: "Anticoagulants", area: "Blood", includes: "heparins, warfarin, DOACs, direct thrombin inhibitors"}
+- {slug: antiplatelets, label: "Antiplatelets", area: "Blood", includes: "aspirin as antiplatelet, P2Y12 inhibitors, GP IIb/IIIa inhibitors, dipyridamole, cilostazol"}
+- {slug: thrombolytics, label: "Thrombolytics", area: "Blood", includes: "alteplase, tenecteplase, thrombolytic therapy"}
+- {slug: hemostatics-and-blood-products, label: "Hemostatics and blood products", area: "Blood", includes: "tranexamic and aminocaproic acid, PCC, FFP, fibrinogen, thrombin, protamine, vitamin K as reversal, von Willebrand factor, emicizumab"}
+- {slug: hematopoietic-agents, label: "Hematopoietic agents", area: "Blood", includes: "erythropoiesis-stimulating agents, filgrastim, iron, TPO receptor agonists, luspatercept"}
+# Endocrine
+- {slug: insulins, label: "Insulins", area: "Endocrine", includes: "all insulins"}
+- {slug: incretin-agents, label: "Incretin agents", area: "Endocrine", includes: "GLP-1 receptor agonists, DPP-4 inhibitors, tirzepatide; obesity drugs (orlistat, phentermine, setmelanotide)"}
+- {slug: other-antidiabetics, label: "Other antidiabetics", area: "Endocrine", includes: "metformin, sulfonylureas, meglitinides, SGLT2 inhibitors, thiazolidinediones, alpha-glucosidase inhibitors"}
+- {slug: corticosteroids, label: "Corticosteroids", area: "Endocrine", includes: "systemic, inhaled and topical glucocorticoids, fludrocortisone"}
+- {slug: thyroid-agents, label: "Thyroid agents", area: "Endocrine", includes: "levothyroxine, methimazole, propylthiouracil, potassium iodide, radioactive iodine therapy"}
+- {slug: sex-hormones-and-modulators, label: "Sex hormones and modulators", area: "Endocrine", includes: "estrogens, progestins, contraceptives, androgens, anabolic steroids, SERMs, clomiphene, GnRH analogues, danazol"}
+- {slug: bone-agents, label: "Bone agents", area: "Endocrine", includes: "bisphosphonates, denosumab, teriparatide, abaloparatide, romosozumab, calcitonin, cinacalcet"}
+- {slug: pituitary-and-obstetric-agents, label: "Pituitary and obstetric agents", area: "Endocrine", includes: "octreotide, desmopressin, oxytocin, prostaglandins, misoprostol, mifepristone, bromocriptine for prolactin"}
+# Gastrointestinal
+- {slug: acid-suppressants, label: "Acid suppressants", area: "Gastrointestinal", includes: "PPIs, H2 blockers, antacids, sucralfate, bismuth"}
+- {slug: antiemetics, label: "Antiemetics", area: "Gastrointestinal", includes: "5-HT3 and NK-1 antagonists, antiemetic antihistamines and antimuscarinics, metoclopramide, prochlorperazine"}
+- {slug: laxatives-and-antidiarrheals, label: "Laxatives and antidiarrheals", area: "Gastrointestinal", includes: "laxatives, stool softeners, linaclotide, loperamide, diphenoxylate"}
+- {slug: other-gi-agents, label: "Other GI agents", area: "Gastrointestinal", includes: "mesalamine, sulfasalazine, ursodiol, obeticholic acid, pancrelipase, simethicone, probiotics, rifaximin; RNA therapies (patisiran, inotersen)"}
+# Respiratory and allergy
+- {slug: bronchodilators, label: "Bronchodilators", area: "Respiratory and allergy", includes: "beta-2 agonists, inhaled anticholinergics, methylxanthines"}
+- {slug: asthma-controllers, label: "Asthma controllers", area: "Respiratory and allergy", includes: "inhaled corticosteroids, leukotriene antagonists, cromolyn, zileuton"}
+- {slug: antihistamines, label: "Antihistamines", area: "Respiratory and allergy", includes: "H1 antihistamines (allergy use)"}
+- {slug: cough-cold-and-mucolytics, label: "Cough, cold and mucolytics", area: "Respiratory and allergy", includes: "dextromethorphan, guaifenesin, mucolytics, N-acetylcysteine as mucolytic"}
+# Nervous system and psychiatry
+- {slug: ssris-and-snris, label: "SSRIs and SNRIs", area: "Nervous system and psychiatry", includes: "SSRIs, SNRIs"}
+- {slug: other-antidepressants, label: "Other antidepressants", area: "Nervous system and psychiatry", includes: "TCAs, MAOIs, bupropion, mirtazapine, trazodone, brexanolone"}
+- {slug: antipsychotics, label: "Antipsychotics", area: "Nervous system and psychiatry", includes: "typical and atypical antipsychotics, phenothiazines, pimavanserin"}
+- {slug: mood-stabilizers, label: "Mood stabilizers", area: "Nervous system and psychiatry", includes: "lithium, valproate and lamotrigine as mood stabilizers"}
+- {slug: benzodiazepines, label: "Benzodiazepines", area: "Nervous system and psychiatry", includes: "benzodiazepines, flumazenil"}
+- {slug: sedative-hypnotics, label: "Sedative-hypnotics", area: "Nervous system and psychiatry", includes: "z-drugs, barbiturates, melatonin, orexin antagonists, sodium oxybate, buspirone"}
+- {slug: antiseizure, label: "Antiseizure", area: "Nervous system and psychiatry", includes: "antiepileptic drugs"}
+- {slug: stimulants-and-adhd, label: "Stimulants and ADHD drugs", area: "Nervous system and psychiatry", includes: "amphetamines, methylphenidate, atomoxetine, viloxazine, modafinil, caffeine"}
+- {slug: antiparkinson, label: "Antiparkinson", area: "Nervous system and psychiatry", includes: "levodopa, dopamine agonists, MAO-B and COMT inhibitors, amantadine, benztropine, trihexyphenidyl"}
+- {slug: dementia-agents, label: "Dementia agents", area: "Nervous system and psychiatry", includes: "cholinesterase inhibitors for dementia, memantine, anti-amyloid antibodies"}
+- {slug: migraine-agents, label: "Migraine agents", area: "Nervous system and psychiatry", includes: "triptans, CGRP agents, ergotamine"}
+- {slug: substance-use-treatment, label: "Substance use treatment", area: "Nervous system and psychiatry", includes: "buprenorphine, methadone for OUD, naltrexone, disulfiram, varenicline, nicotine replacement"}
+- {slug: muscle-relaxants, label: "Muscle relaxants", area: "Nervous system and psychiatry", includes: "baclofen, tizanidine, cyclobenzaprine, methocarbamol, carisoprodol, dantrolene, botulinum toxin"}
+# Pain and anesthesia
+- {slug: opioids, label: "Opioids", area: "Pain and anesthesia", includes: "opioid agonists, mixed agonists, opioid antagonists, opioid prescribing"}
+- {slug: nsaids-and-analgesics, label: "NSAIDs and analgesics", area: "Pain and anesthesia", includes: "NSAIDs, COX-2 inhibitors, acetaminophen, gabapentinoids for pain, ziconotide, capsaicin; gout drugs (allopurinol, febuxostat, colchicine, pegloticase)"}
+- {slug: local-anesthetics, label: "Local anesthetics", area: "Pain and anesthesia", includes: "amide and ester local anesthetics, regional anesthesia drugs"}
+- {slug: general-anesthetics, label: "General anesthetics", area: "Pain and anesthesia", includes: "inhaled anesthetics, propofol, ketamine, etomidate, methohexital, dexmedetomidine, intubation drugs"}
+- {slug: neuromuscular-blockers-and-reversal, label: "Neuromuscular blockers and reversal", area: "Pain and anesthesia", includes: "depolarizing and nondepolarizing blockers, sugammadex, neostigmine as reversal"}
+# Autonomic
+- {slug: cholinergic-and-anticholinergic, label: "Cholinergic and anticholinergic", area: "Autonomic", includes: "muscarinic agonists and antagonists, cholinesterase inhibitors outside dementia, atropine, glycopyrrolate, scopolamine"}
+- {slug: adrenergic-agents, label: "Adrenergic agents", area: "Autonomic", includes: "sympathomimetics, adrenergic drug overviews, autonomic pharmacology"}
+# Anti-infectives
+- {slug: penicillins, label: "Penicillins", area: "Anti-infectives", includes: "penicillins, beta-lactamase inhibitors, carbapenems, beta-lactam overviews"}
+- {slug: cephalosporins, label: "Cephalosporins", area: "Anti-infectives", includes: "all cephalosporin generations"}
+- {slug: aminoglycosides, label: "Aminoglycosides", area: "Anti-infectives", includes: "aminoglycosides"}
+- {slug: macrolides-and-lincosamides, label: "Macrolides and lincosamides", area: "Anti-infectives", includes: "macrolides, clindamycin"}
+- {slug: fluoroquinolones, label: "Fluoroquinolones", area: "Anti-infectives", includes: "quinolones"}
+- {slug: tetracyclines, label: "Tetracyclines", area: "Anti-infectives", includes: "tetracycline, doxycycline, minocycline"}
+- {slug: other-antibacterials, label: "Other antibacterials", area: "Anti-infectives", includes: "vancomycin, linezolid, daptomycin, TMP-SMX, nitrofurantoin, metronidazole, polymyxin, topical antibacterials, antibiotic prophylaxis"}
+- {slug: antituberculars, label: "Antituberculars", area: "Anti-infectives", includes: "isoniazid, rifampin, ethambutol, streptomycin, dapsone"}
+- {slug: antivirals, label: "Antivirals", area: "Anti-infectives", includes: "non-HIV antivirals, COVID-19 antivirals and antibodies, interferon for viral use"}
+- {slug: antiretrovirals, label: "Antiretrovirals", area: "Anti-infectives", includes: "HIV antiretroviral therapy"}
+- {slug: antifungals, label: "Antifungals", area: "Anti-infectives", includes: "azoles, echinocandins, amphotericin, flucytosine, terbinafine, griseofulvin"}
+- {slug: antiparasitics, label: "Antiparasitics", area: "Anti-infectives", includes: "antimalarials, anthelmintics, antiprotozoals, permethrin, pentamidine"}
+- {slug: vaccines-and-immune-globulins, label: "Vaccines and immune globulins", area: "Anti-infectives", includes: "vaccines, toxoids, immune globulins, antitoxins"}
+# Oncology and immunology
+- {slug: cytotoxic-chemotherapy, label: "Cytotoxic chemotherapy", area: "Oncology and immunology", includes: "alkylating agents, antimetabolites, anthracyclines, taxanes, platinum, vinca alkaloids, topoisomerase inhibitors; mesna, leucovorin, dexrazoxane"}
+- {slug: kinase-inhibitors, label: "Kinase inhibitors", area: "Oncology and immunology", includes: "tyrosine and other kinase inhibitors in cancer, proteasome inhibitors, hedgehog inhibitors, radioligand therapy"}
+- {slug: immune-checkpoint-inhibitors, label: "Immune checkpoint inhibitors", area: "Oncology and immunology", includes: "PD-1, PD-L1, CTLA-4 inhibitors"}
+- {slug: hormonal-cancer-therapy, label: "Hormonal cancer therapy", area: "Oncology and immunology", includes: "tamoxifen, aromatase inhibitors, fulvestrant, antiandrogens, leuprolide in cancer"}
+- {slug: immunosuppressants, label: "Immunosuppressants", area: "Oncology and immunology", includes: "calcineurin inhibitors, azathioprine, mycophenolate, mTOR inhibitors, voclosporin"}
+- {slug: immunomodulators-and-dmards, label: "Immunomodulators and DMARDs", area: "Oncology and immunology", includes: "methotrexate, DMARDs, TNF and interleukin inhibitors, JAK inhibitors, apremilast, MS disease-modifying drugs, thalidomide, IVIG for immune disease"}
+- {slug: monoclonal-antibodies, label: "Monoclonal antibodies", area: "Oncology and immunology", includes: "mechanism class: second class for every monoclonal antibody (-mab)"}
+# Skin, eye and urology
+- {slug: dermatologic-agents, label: "Dermatologic agents", area: "Skin, eye and urology", includes: "topical retinoids, isotretinoin, acitretin, benzoyl peroxide, hydroquinone, imiquimod, sunscreens, skin antiseptics, fillers, tapinarof"}
+- {slug: ophthalmic-agents, label: "Ophthalmic agents", area: "Skin, eye and urology", includes: "glaucoma drops, anti-VEGF intravitreal drugs, mydriatics, ophthalmic antihistamines, vitreous tamponade, fluorescein, cenegermin"}
+- {slug: urologic-agents, label: "Urologic agents", area: "Skin, eye and urology", includes: "bladder antimuscarinics, mirabegron, PDE5 inhibitors, 5-alpha-reductase inhibitors, phenazopyridine, bethanechol"}
+# Other
+- {slug: antidotes-and-chelators, label: "Antidotes and chelators", area: "Other", includes: "antidotes, chelators, activated charcoal, lipid emulsion, methylene blue, hydroxocobalamin, pralidoxime, ipecac"}
+- {slug: fluids-electrolytes-and-nutrition, label: "Fluids, electrolytes and nutrition", area: "Other", includes: "crystalloids, colloids, albumin, potassium, magnesium, bicarbonate, calcium salts, TPN, potassium binders, sevelamer"}
+- {slug: vitamins-and-minerals, label: "Vitamins and minerals", area: "Other", includes: "vitamins, folic acid, zinc, selenium, dietary calcium"}
+- {slug: herbal-and-supplements, label: "Herbals and supplements", area: "Other", includes: "herbal products and dietary supplements, cannabinoids (THC, CBD, dronabinol), kratom"}
+- {slug: pharmacology-concepts, label: "Pharmacology concepts", area: "Other", includes: "cross-class topics (QT-prolonging drugs, nephrotoxic drugs, transdermal delivery, drug interactions), radiopharmaceuticals and contrast agents"}

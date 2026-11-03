@@ -1,0 +1,9 @@
+{
+  "id": "statpearls",
+  "name": "StatPearls",
+  "version": "0.1.0",
+  "minAppVersion": "1.12.7",
+  "description": "Search-first Home for the local StatPearls vault.",
+  "author": "StatPearls Vault Builder",
+  "isDesktopOnly": true
+}

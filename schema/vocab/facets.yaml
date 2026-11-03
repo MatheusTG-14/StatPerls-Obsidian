@@ -1,0 +1,22 @@
+# Facet tag vocabularies (DEC-21). Tag = <family>/<value>; pathogen values carry their group (pathogen/<group>/<value>).
+# A facet applies only when the article is about it, not when it is mentioned in passing.
+population: [neonatal, pediatric, adolescent, geriatric, pregnancy, women, men]
+setting: [prehospital, emergency, critical-care, perioperative, outpatient]
+discipline: [surgery, anesthesia, radiology, pathology-and-lab, nursing, pharmacy, dentistry, rehabilitation, public-health, education-and-simulation, ethics-and-law]
+pathogen:
+  - bacteria/gram-positive
+  - bacteria/gram-negative
+  - bacteria/mycobacteria
+  - bacteria/anaerobes
+  - bacteria/atypical
+  - bacteria/spirochetes
+  - virus/dna
+  - virus/rna
+  - virus/retrovirus
+  - fungus/yeasts
+  - fungus/molds
+  - fungus/dimorphic
+  - parasite/protozoa
+  - parasite/helminths
+  - parasite/ectoparasites
+  - prion

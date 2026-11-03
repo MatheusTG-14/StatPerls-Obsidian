@@ -1,0 +1,24 @@
+# Frozen category vocabulary (DEC-18, spec docs/superpowers/specs/2026-10-28-organization-design.md 4.1).
+# Order is the display order everywhere. trees: MeSH tree-number prefixes (longest prefix wins).
+- {slug: cardiovascular, folder: Cardiovascular, aliases: [Cardiology], trees: [C14, A07]}
+- {slug: respiratory, folder: Respiratory, aliases: [Pulmonology], trees: [C08, A04]}
+- {slug: digestive, folder: Digestive and Liver, aliases: [Gastroenterology, Hepatology], trees: [C06, A03]}
+- {slug: kidney-urinary, folder: Kidney and Urinary, aliases: [Nephrology, Urology], trees: [C12, A05]}
+- {slug: obgyn, folder: Obstetrics and Gynecology, aliases: [Obstetrics, Gynecology], trees: [C12.050.703, C12.050.351.500, A05.360.319]}
+- {slug: endocrine-metabolic, folder: Endocrine and Metabolism, aliases: [Endocrinology], trees: [C19, C18, A06]}
+- {slug: hematology, folder: Hematology, aliases: [Hematologic Diseases], trees: [C15, A15]}
+- {slug: immunology, folder: Immunology and Allergy, aliases: [Allergy], trees: [C20]}
+- {slug: infectious, folder: Infectious Disease, aliases: [Infectious Diseases], trees: [C01]}
+- {slug: oncology, folder: Oncology, aliases: [Cancer], trees: [C04]}
+- {slug: nervous, folder: Nervous System, aliases: [Neurology], trees: [C10, A08]}
+- {slug: mental-health, folder: Mental Health, aliases: [Psychiatry], trees: [F03]}
+- {slug: musculoskeletal, folder: Musculoskeletal, aliases: [Orthopedics, Rheumatology], trees: [C05, A02]}
+- {slug: skin, folder: Skin, aliases: [Dermatology], trees: [C17, A17]}
+- {slug: eye, folder: Eye, aliases: [Ophthalmology], trees: [C11, A09]}
+- {slug: ent, folder: Ear Nose and Throat, aliases: [Otolaryngology, ENT], trees: [C09]}
+- {slug: oral-dental, folder: Oral and Dental, aliases: [Dentistry], trees: [C07, A14]}
+- {slug: congenital-genetic, folder: Congenital and Genetic, aliases: [Medical Genetics], trees: [C16]}
+- {slug: trauma, folder: Trauma and Injury, aliases: [Trauma Surgery], trees: [C26]}
+- {slug: toxicology, folder: Toxicology, aliases: [Poisoning], trees: [C25, C21]}
+- {slug: basic-science, folder: Basic Sciences, aliases: [Preclinical Sciences], trees: []}
+- {slug: general, folder: General and Professional, aliases: [Professional Practice], trees: []}

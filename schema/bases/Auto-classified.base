@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.inFolder("StatPearls/Articles")
+    - file.hasTag("status/auto-classified")
+views:
+  - type: table
+    name: Auto-classified
+    order:
+      - file.name
+      - article_type
+      - system
+      - subsystem
+      - last_update
+    sort:
+      - property: file.name
+        direction: ASC

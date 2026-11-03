@@ -1,0 +1,3343 @@
+# Agent drug classes (DEC-23). Input: title, headings, introduction (rule 10).
+# fp = sha256[:12] of the exact input; stale entries are ignored. Only high/medium conf is applied.
+# Pass: model claude-haiku-5-5, 2026-11-02, 835 entries written.
+article-100616:
+  fp: b22909288662
+  drug_class: [cephalosporins]
+  conf: high
+article-102:
+  fp: e2fe38686dfc
+  drug_class: [beta-blockers]
+  conf: high
+article-103:
+  fp: 542d0773f4dd
+  drug_class: [beta-blockers]
+  conf: high
+article-105841:
+  fp: ff9408d3f67a
+  drug_class: [nsaids-and-analgesics]
+  conf: medium
+article-107475:
+  fp: 32f8ee6abb4b
+  drug_class: [nitrates-and-vasodilators]
+  conf: medium
+article-108090:
+  fp: 9393a1c29bd8
+  drug_class: [migraine-agents]
+  conf: high
+article-108773:
+  fp: 339032b0abd7
+  drug_class: [sedative-hypnotics]
+  conf: high
+article-108794:
+  fp: b86cde5f6afc
+  drug_class: [sedative-hypnotics]
+  conf: high
+article-108904:
+  fp: 5717b497bdb8
+  drug_class: [muscle-relaxants]
+  conf: high
+article-109800:
+  fp: 3c956008893c
+  drug_class: [kinase-inhibitors]
+  conf: high
+article-109824:
+  fp: ffbcd2ee3671
+  drug_class: [anticoagulants]
+  conf: high
+article-111460:
+  fp: 511c7f97403a
+  drug_class: [lipid-lowering]
+  conf: high
+article-112520:
+  fp: 6a47f2131aa5
+  drug_class: [laxatives-and-antidiarrheals]
+  conf: medium
+article-118745:
+  fp: 1cb557260fd7
+  drug_class: [sex-hormones-and-modulators]
+  conf: high
+article-122861:
+  fp: 0da370788cc7
+  drug_class: [antivirals]
+  conf: high
+article-124126:
+  fp: 3abbae51b506
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-124789:
+  fp: c63cb4813a99
+  drug_class: [kinase-inhibitors]
+  conf: high
+article-124966:
+  fp: 6531e0510f7f
+  drug_class: [other-gi-agents]
+  conf: high
+article-127327:
+  fp: 12780a9c77b5
+  drug_class: [immune-checkpoint-inhibitors, monoclonal-antibodies]
+  conf: high
+article-129287:
+  fp: b09d90d8e8ce
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-130724:
+  fp: e01d64185f68
+  drug_class: [kinase-inhibitors]
+  conf: high
+article-130748:
+  fp: 24ee91772821
+  drug_class: [immune-checkpoint-inhibitors, monoclonal-antibodies]
+  conf: high
+article-131403:
+  fp: 88ceb8f7f585
+  drug_class: [pharmacology-concepts]
+  conf: high
+article-131551:
+  fp: 04ac30414b75
+  drug_class: [immunomodulators-and-dmards]
+  conf: medium
+article-131715:
+  fp: c87528eec9f6
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: high
+article-131875:
+  fp: 7e5b1412d99c
+  drug_class: [local-anesthetics]
+  conf: high
+article-132588:
+  fp: 6384b75962a1
+  drug_class: [opioids]
+  conf: high
+article-132675:
+  fp: 322fc2be8cc6
+  drug_class: [ophthalmic-agents]
+  conf: high
+article-132923:
+  fp: ca2313bef2cb
+  drug_class: [antivirals, monoclonal-antibodies]
+  conf: high
+article-132924:
+  fp: ac1d6f2be97e
+  drug_class: [antivirals, monoclonal-antibodies]
+  conf: high
+article-132925:
+  fp: 702beaea81e3
+  drug_class: [antivirals, monoclonal-antibodies]
+  conf: high
+article-132926:
+  fp: c62b727202cf
+  drug_class: [antivirals, monoclonal-antibodies]
+  conf: high
+article-132927:
+  fp: 483617418d73
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-133174:
+  fp: 70c68bd64ce1
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: high
+article-133789:
+  fp: fa5076b57cd8
+  drug_class: [ophthalmic-agents]
+  conf: high
+article-134517:
+  fp: 6103072024a2
+  drug_class: [nitrates-and-vasodilators]
+  conf: low
+article-135218:
+  fp: b2ec5fc52a1f
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-135219:
+  fp: e8ef60ff9d37
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-135220:
+  fp: dd27adff75ce
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-135221:
+  fp: d9dddee7786b
+  drug_class: [nsaids-and-analgesics]
+  conf: medium
+article-135573:
+  fp: daf367aa1de7
+  drug_class: [incretin-agents]
+  conf: high
+article-137525:
+  fp: 274f9b469def
+  drug_class: [dementia-agents, monoclonal-antibodies]
+  conf: high
+article-137853:
+  fp: 1d73d2921923
+  drug_class: [nitrates-and-vasodilators]
+  conf: low
+article-137854:
+  fp: 70f05603d974
+  drug_class: [other-gi-agents]
+  conf: high
+article-137855:
+  fp: 20e7487fffdd
+  drug_class: [other-gi-agents]
+  conf: high
+article-139168:
+  fp: 955718ebe3b4
+  drug_class: [dementia-agents]
+  conf: high
+article-139274:
+  fp: 87ffadb127cc
+  drug_class: [stimulants-and-adhd]
+  conf: high
+article-139757:
+  fp: 82f2a1abd33c
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: high
+article-140276:
+  fp: dafd076d7a66
+  drug_class: [ophthalmic-agents]
+  conf: high
+article-140303:
+  fp: 48def4492d13
+  drug_class: [kinase-inhibitors]
+  conf: medium
+article-140421:
+  fp: 0b9d220c8272
+  drug_class: [ophthalmic-agents]
+  conf: high
+article-140801:
+  fp: ae517c9c68be
+  drug_class: [laxatives-and-antidiarrheals]
+  conf: high
+article-142344:
+  fp: 6184bae5c8a3
+  drug_class: [other-antidiabetics]
+  conf: high
+article-143222:
+  fp: 5cdf3378001b
+  drug_class: [kinase-inhibitors]
+  conf: medium
+article-143270:
+  fp: 8d0f8d8bd491
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-143337:
+  fp: ae60315ef9b0
+  drug_class: [other-gi-agents]
+  conf: low
+article-143667:
+  fp: db423fe7ddbc
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: medium
+article-143874:
+  fp: 32be42a371be
+  drug_class: [urologic-agents]
+  conf: high
+article-144777:
+  fp: 232699595fcd
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: medium
+article-144967:
+  fp: c367f78b4e2f
+  drug_class: [ophthalmic-agents]
+  conf: high
+article-145296:
+  fp: 7e107c15c3a3
+  drug_class: [bone-agents, monoclonal-antibodies]
+  conf: high
+article-145399:
+  fp: 0ea99808f842
+  drug_class: [antiarrhythmics]
+  conf: low
+article-147813:
+  fp: 73259639adcd
+  drug_class: [incretin-agents]
+  conf: high
+article-148071:
+  fp: bb786c3fd671
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-148092:
+  fp: 8d54cadc2dcb
+  drug_class: [bone-agents]
+  conf: high
+article-148093:
+  fp: 35d95f50727d
+  drug_class: [sex-hormones-and-modulators]
+  conf: high
+article-148094:
+  fp: 5028e55d6d1f
+  drug_class: [bone-agents]
+  conf: high
+article-148244:
+  fp: 7c74b2b5da31
+  drug_class: [antivirals]
+  conf: high
+article-148445:
+  fp: 88b98f23fd23
+  drug_class: [other-antidepressants]
+  conf: low
+article-148890:
+  fp: 76759fb6bf37
+  drug_class: [lipid-lowering]
+  conf: high
+article-148891:
+  fp: 471f80e9ea62
+  drug_class: [lipid-lowering, monoclonal-antibodies]
+  conf: high
+article-148937:
+  fp: 2ca2c33e4b78
+  drug_class: [lipid-lowering]
+  conf: high
+article-148945:
+  fp: b4d71beeef5a
+  drug_class: [incretin-agents]
+  conf: high
+article-150084:
+  fp: ad4ad3d024c0
+  drug_class: [pharmacology-concepts]
+  conf: low
+article-151158:
+  fp: 49f30f2152ea
+  drug_class: [hematopoietic-agents]
+  conf: high
+article-151612:
+  fp: 9a52e463225b
+  drug_class: [dermatologic-agents]
+  conf: high
+article-152980:
+  fp: b911b94913e3
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-155476:
+  fp: c0f9591e0bb6
+  drug_class: [thrombolytics]
+  conf: high
+article-155737:
+  fp: 78abf3e746c9
+  drug_class: [immunosuppressants]
+  conf: high
+article-156148:
+  fp: 7ad2663569a7
+  drug_class: [antiplatelets]
+  conf: high
+article-156491:
+  fp: 25130e15994b
+  drug_class: [muscle-relaxants]
+  conf: medium
+article-156616:
+  fp: b2fcbab062f6
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-157005:
+  fp: 001366ae3868
+  drug_class: [other-gi-agents]
+  conf: medium
+article-159921:
+  fp: 3badb5eb8402
+  drug_class: [fluoroquinolones]
+  conf: high
+article-159922:
+  fp: 1cf6de42f29b
+  drug_class: [substance-use-treatment]
+  conf: high
+article-159926:
+  fp: 6ebddc0deb5d
+  drug_class: [cough-cold-and-mucolytics]
+  conf: high
+article-159927:
+  fp: 982c65e51d48
+  drug_class: [other-antibacterials]
+  conf: high
+article-159936:
+  fp: 8e534839558f
+  drug_class: [migraine-agents]
+  conf: high
+article-159939:
+  fp: 100b0852dcd2
+  drug_class: [antiparkinson]
+  conf: high
+article-159950:
+  fp: d078b0770698
+  drug_class: [fluids-electrolytes-and-nutrition]
+  conf: high
+article-159951:
+  fp: d7f2ea23b975
+  drug_class: [anticoagulants]
+  conf: high
+article-159953:
+  fp: 5592def0d8fc
+  drug_class: [cephalosporins]
+  conf: high
+article-159958:
+  fp: dc0642579ac6
+  drug_class: [other-antidiabetics]
+  conf: high
+article-159959:
+  fp: bbe691e88c94
+  drug_class: [incretin-agents]
+  conf: high
+article-159964:
+  fp: 0cf060c3842c
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-159967:
+  fp: 157887d203fc
+  drug_class: [urologic-agents]
+  conf: high
+article-160212:
+  fp: cac32f761aa5
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-160552:
+  fp: 742bdf228edc
+  drug_class: [benzodiazepines]
+  conf: high
+article-161479:
+  fp: 4ec8d178faf7
+  drug_class: [urologic-agents]
+  conf: high
+article-162828:
+  fp: a527a1d238b7
+  drug_class: [incretin-agents]
+  conf: high
+article-167918:
+  fp: ab29d0a126e7
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-16988:
+  fp: 2f0b19163c79
+  drug_class: [thyroid-agents]
+  conf: high
+article-16992:
+  fp: f619bed5393f
+  drug_class: [urologic-agents]
+  conf: high
+article-16993:
+  fp: 595ce1e1379a
+  drug_class: [other-gi-agents]
+  conf: high
+article-17000:
+  fp: 3b498f62b922
+  drug_class: [antiretrovirals]
+  conf: high
+article-17055:
+  fp: cc45c5bb4d78
+  drug_class: [other-antidiabetics]
+  conf: high
+article-17070:
+  fp: b3d3f67c956e
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-17074:
+  fp: 4321806da103
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-17076:
+  fp: 9bc62bf937fb
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-17077:
+  fp: 42f64129b514
+  drug_class: [diuretics]
+  conf: high
+article-17128:
+  fp: ed95360a3a99
+  drug_class: [antidotes-and-chelators]
+  conf: high
+article-17176:
+  fp: 7b03da3b2ad5
+  drug_class: [antivirals]
+  conf: high
+article-17203:
+  fp: 13089048ad34
+  drug_class: [antiarrhythmics]
+  conf: high
+article-17240:
+  fp: a8a5622b12af
+  drug_class: [adrenergic-agents]
+  conf: high
+article-17324:
+  fp: 0118c27800f8
+  drug_class: [antiparasitics]
+  conf: high
+article-17329:
+  fp: f47e4d9d4c71
+  drug_class: [fluids-electrolytes-and-nutrition]
+  conf: high
+article-17330:
+  fp: 66f20a2eac53
+  drug_class: [bronchodilators]
+  conf: high
+article-17348:
+  fp: bcacaa9f6558
+  drug_class: [bone-agents]
+  conf: high
+article-17352:
+  fp: d3171fa14b25
+  drug_class: [opioids]
+  conf: high
+article-173600:
+  fp: bc8dede04552
+  drug_class: [ssris-and-snris]
+  conf: high
+article-17382:
+  fp: bbb2e27d131c
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-17383:
+  fp: 04ba2c3fbd95
+  drug_class: [migraine-agents]
+  conf: high
+article-17388:
+  fp: 6855ca6262ac
+  drug_class: [laxatives-and-antidiarrheals]
+  conf: medium
+article-17401:
+  fp: 7faf01f414ec
+  drug_class: [alpha-agents-and-central-antihypertensives]
+  conf: high
+article-17404:
+  fp: 07da5d6fccb1
+  drug_class: [benzodiazepines]
+  conf: high
+article-17405:
+  fp: a8723109ec4f
+  drug_class: [urologic-agents]
+  conf: medium
+article-17407:
+  fp: 16f82f336094
+  drug_class: [thrombolytics]
+  conf: high
+article-17414:
+  fp: a3ce011a9803
+  drug_class: [acid-suppressants]
+  conf: medium
+article-17425:
+  fp: d8147e7400d5
+  drug_class: [antiparkinson, antivirals]
+  conf: medium
+article-17456:
+  fp: 3893774fc4c1
+  drug_class: [aminoglycosides]
+  conf: high
+article-17459:
+  fp: 85d30e9a34a7
+  drug_class: [hemostatics-and-blood-products]
+  conf: high
+article-17461:
+  fp: c61de3c6c448
+  drug_class: [aminoglycosides]
+  conf: high
+article-17463:
+  fp: d130b6ee3bb2
+  drug_class: [bronchodilators]
+  conf: high
+article-17464:
+  fp: d79aa49f7627
+  drug_class: [antiarrhythmics]
+  conf: high
+article-17465:
+  fp: 702aa9896d70
+  drug_class: [other-antidepressants]
+  conf: high
+article-17466:
+  fp: 0697a07e69bf
+  drug_class: [calcium-channel-blockers]
+  conf: high
+article-17473:
+  fp: a65b260362a6
+  drug_class: [other-antidepressants]
+  conf: high
+article-17474:
+  fp: bf2d1321ff8f
+  drug_class: [penicillins]
+  conf: high
+article-17475:
+  fp: 3582aa604dde
+  drug_class: [penicillins]
+  conf: high
+article-17478:
+  fp: fde541c4cd26
+  drug_class: [stimulants-and-adhd]
+  conf: high
+article-17480:
+  fp: c49939fca901
+  drug_class: [antifungals]
+  conf: high
+article-17481:
+  fp: 1acb228d4df1
+  drug_class: [penicillins]
+  conf: high
+article-17499:
+  fp: e30cad059acd
+  drug_class: [sex-hormones-and-modulators]
+  conf: high
+article-17525:
+  fp: 0454e85e8732
+  drug_class: [sex-hormones-and-modulators]
+  conf: high
+article-17583:
+  fp: f2d3f1373729
+  drug_class: [vasopressors-and-inotropes]
+  conf: high
+article-17584:
+  fp: 5c1a03ad6b00
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-17585:
+  fp: 5ddf38ed32a9
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-17636:
+  fp: b110bc3d5310
+  drug_class: [acid-suppressants]
+  conf: high
+article-17675:
+  fp: d53089d5ebce
+  drug_class: [antiarrhythmics]
+  conf: high
+article-17682:
+  fp: 3b80951fc2df
+  drug_class: [cholinergic-and-anticholinergic]
+  conf: high
+article-17687:
+  fp: 27334fc98eca
+  drug_class: [ssris-and-snris]
+  conf: medium
+article-17690:
+  fp: 548bef5ebe11
+  drug_class: [antiemetics]
+  conf: high
+article-17692:
+  fp: 4c2eaa9d2b1e
+  drug_class: [antifungals]
+  conf: high
+article-17695:
+  fp: 24990dc3863b
+  drug_class: [antihistamines]
+  conf: high
+article-17697:
+  fp: 3b956a01413b
+  drug_class: [pharmacology-concepts]
+  conf: low
+article-17699:
+  fp: c61ca41d1517
+  drug_class: [antiparasitics]
+  conf: high
+article-17704:
+  fp: 093f6bdaf1b3
+  drug_class: [antiparasitics]
+  conf: high
+article-17708:
+  fp: 02e20a6f21cd
+  drug_class: [antiplatelets]
+  conf: high
+article-17709:
+  fp: 5fc07174a944
+  drug_class: [antipsychotics]
+  conf: high
+article-17711:
+  fp: f5c3c18939ed
+  drug_class: [cholinergic-and-anticholinergic]
+  conf: high
+article-17791:
+  fp: f493a3f3ac77
+  drug_class: [antiemetics]
+  conf: high
+article-17815:
+  fp: 2bc7c68525ac
+  drug_class: [antipsychotics]
+  conf: high
+article-17888:
+  fp: 65c60c428c81
+  drug_class: [insulins]
+  conf: high
+article-17939:
+  fp: d8e17a2cd50a
+  drug_class: [antiretrovirals]
+  conf: high
+article-17954:
+  fp: 5efc320d288d
+  drug_class: [stimulants-and-adhd]
+  conf: high
+article-17959:
+  fp: bca033992293
+  drug_class: [neuromuscular-blockers-and-reversal]
+  conf: high
+article-17983:
+  fp: 12448130fe20
+  drug_class: [cholinergic-and-anticholinergic]
+  conf: high
+article-17989:
+  fp: 65bac85d7969
+  drug_class: [antipsychotics]
+  conf: high
+article-18035:
+  fp: ad8135e867b0
+  drug_class: [adrenergic-agents]
+  conf: high
+article-18065:
+  fp: 4686a41db32f
+  drug_class: [immunosuppressants]
+  conf: high
+article-18066:
+  fp: 73def7911a63
+  drug_class: [macrolides-and-lincosamides]
+  conf: high
+article-18087:
+  fp: 0257fb4198c9
+  drug_class: [other-antibacterials]
+  conf: high
+article-18092:
+  fp: 624025a70797
+  drug_class: [muscle-relaxants]
+  conf: high
+article-18105:
+  fp: 78098728f02a
+  drug_class: [other-antibacterials]
+  conf: medium
+article-18133:
+  fp: fd0af45e7d7c
+  drug_class: [sedative-hypnotics]
+  conf: high
+article-18217:
+  fp: 3ce52e050a23
+  drug_class: [penicillins]
+  conf: high
+article-18219:
+  fp: 1d3297e330df
+  drug_class: [local-anesthetics]
+  conf: high
+article-18220:
+  fp: 35e5f5b93271
+  drug_class: [benzodiazepines]
+  conf: high
+article-18221:
+  fp: 5bd39a8f34bd
+  drug_class: [antiparkinson]
+  conf: high
+article-18235:
+  fp: b75b75cbc010
+  drug_class: [bronchodilators]
+  conf: high
+article-18237:
+  fp: 17c19945d3b5
+  drug_class: [penicillins]
+  conf: high
+article-18241:
+  fp: 6cd1704f926a
+  drug_class: [beta-blockers]
+  conf: high
+article-18243:
+  fp: 09f9930b3600
+  drug_class: [penicillins]
+  conf: high
+article-18245:
+  fp: a8318861131e
+  drug_class: [urologic-agents]
+  conf: high
+article-18246:
+  fp: e23aa8aa54a4
+  drug_class: [kinase-inhibitors, monoclonal-antibodies]
+  conf: medium
+article-18291:
+  fp: 80713504bdd3
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-18328:
+  fp: 1fb396a693ac
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-18343:
+  fp: 29d5b7c05888
+  drug_class: [bone-agents]
+  conf: high
+article-18369:
+  fp: 23b9c4ae6f97
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-18461:
+  fp: ae353d00c36a
+  drug_class: [kinase-inhibitors]
+  conf: high
+article-18462:
+  fp: 55e4df105e77
+  drug_class: [nitrates-and-vasodilators]
+  conf: high
+article-18634:
+  fp: 76c2c297935d
+  drug_class: [pituitary-and-obstetric-agents, antiparkinson]
+  conf: medium
+article-18649:
+  fp: b689abfad0be
+  drug_class: [bronchodilators]
+  conf: high
+article-18681:
+  fp: b6ad1beb8a35
+  drug_class: [corticosteroids]
+  conf: high
+article-18706:
+  fp: 6d3631fbd755
+  drug_class: [local-anesthetics]
+  conf: high
+article-18708:
+  fp: c83404915eff
+  drug_class: [opioids, substance-use-treatment]
+  conf: medium
+article-18709:
+  fp: b81efd1803cc
+  drug_class: [other-antidepressants]
+  conf: high
+article-18731:
+  fp: 06ed0bd2def9
+  drug_class: [sedative-hypnotics]
+  conf: high
+article-18732:
+  fp: 772dc28694a4
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-18735:
+  fp: 50631ebeb128
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-18756:
+  fp: 01e01a522861
+  drug_class: [stimulants-and-adhd]
+  conf: medium
+article-18770:
+  fp: 8ba02c1da297
+  drug_class: [bone-agents]
+  conf: high
+article-18773:
+  fp: 77f17214ab2d
+  drug_class: [vitamins-and-minerals]
+  conf: medium
+article-18775:
+  fp: d9c8104c51f7
+  drug_class: [calcium-channel-blockers]
+  conf: high
+article-18778:
+  fp: 7f3cd21cd2cd
+  drug_class: [fluids-electrolytes-and-nutrition]
+  conf: high
+article-18808:
+  fp: f15392535afb
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-18833:
+  fp: f3f20bb982d6
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-18835:
+  fp: ced9cd19b61f
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-18838:
+  fp: bb08a826c811
+  drug_class: [antiseizure, mood-stabilizers]
+  conf: medium
+article-18841:
+  fp: 56857f2d864e
+  drug_class: [antiparkinson]
+  conf: high
+article-18857:
+  fp: 8f5c6320e652
+  drug_class: [diuretics]
+  conf: high
+article-18952:
+  fp: 33ee47a06632
+  drug_class: [muscle-relaxants]
+  conf: high
+article-18998:
+  fp: 4354d52cde54
+  drug_class: [laxatives-and-antidiarrheals]
+  conf: high
+article-19092:
+  fp: a2e6ec471ba3
+  drug_class: [cephalosporins]
+  conf: high
+article-19094:
+  fp: ee6636e727cc
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-19155:
+  fp: cb0023867377
+  drug_class: [cephalosporins]
+  conf: high
+article-19158:
+  fp: ff34e473f9cb
+  drug_class: [cephalosporins]
+  conf: high
+article-19266:
+  fp: 9f5a836233ee
+  drug_class: [antihistamines]
+  conf: high
+article-19268:
+  fp: 5be26bf0eefa
+  drug_class: [kinase-inhibitors, monoclonal-antibodies]
+  conf: medium
+article-19438:
+  fp: e80fcf07375e
+  drug_class: [antiparasitics]
+  conf: high
+article-19440:
+  fp: 2b0c0d3651cc
+  drug_class: [antipsychotics]
+  conf: high
+article-19447:
+  fp: 53371b4da2ce
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-19472:
+  fp: b1bd51672e94
+  drug_class: [cholinergic-and-anticholinergic]
+  conf: high
+article-19476:
+  fp: fdfb1120022a
+  drug_class: [cholinergic-and-anticholinergic]
+  conf: medium
+article-19562:
+  fp: a6be9ca512a5
+  drug_class: [fluoroquinolones]
+  conf: high
+article-19570:
+  fp: 662b6813a523
+  drug_class: [neuromuscular-blockers-and-reversal]
+  conf: high
+article-19571:
+  fp: 541b684ecafb
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-19573:
+  fp: 0aa321e05f3c
+  drug_class: [ssris-and-snris]
+  conf: high
+article-19602:
+  fp: a1b497a88769
+  drug_class: [macrolides-and-lincosamides]
+  conf: high
+article-19616:
+  fp: 8b92eb585e90
+  drug_class: [sex-hormones-and-modulators]
+  conf: high
+article-19617:
+  fp: d0fabb045265
+  drug_class: [benzodiazepines]
+  conf: high
+article-19618:
+  fp: c46c8c464e30
+  drug_class: [alpha-agents-and-central-antihypertensives]
+  conf: high
+article-19621:
+  fp: 69eb66eda1f6
+  drug_class: [antiplatelets]
+  conf: high
+article-19641:
+  fp: d113c04bd2ac
+  drug_class: [antipsychotics]
+  conf: high
+article-19677:
+  fp: c85a04f5a02c
+  drug_class: [opioids]
+  conf: high
+article-19680:
+  fp: 8c5c7deb39eb
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-19694:
+  fp: 271f9018c53e
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-2:
+  fp: ff1dbcd590f3
+  drug_class: [pharmacology-concepts]
+  conf: medium
+article-20043:
+  fp: 8c11c958f0ca
+  drug_class: [corticosteroids]
+  conf: high
+article-20045:
+  fp: 584ffa5a189a
+  drug_class: [corticosteroids]
+  conf: high
+article-20046:
+  fp: eb2770406acc
+  drug_class: [asthma-controllers]
+  conf: medium
+article-20083:
+  fp: 4b709ed39c21
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-20135:
+  fp: d103af86b176
+  drug_class: [asthma-controllers]
+  conf: high
+article-20197:
+  fp: 4cc448b95a3e
+  drug_class: [muscle-relaxants]
+  conf: high
+article-20199:
+  fp: 064c796f8f86
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-20202:
+  fp: 7668e8518d96
+  drug_class: [immunosuppressants]
+  conf: high
+article-20227:
+  fp: 67e32862e918
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-20255:
+  fp: 38ec2b4328c7
+  drug_class: [muscle-relaxants]
+  conf: high
+article-20256:
+  fp: 6dbfa1004cdb
+  drug_class: [antituberculars]
+  conf: high
+article-20265:
+  fp: afcc3b5b16cf
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-20309:
+  fp: 35e39933036b
+  drug_class: [antidotes-and-chelators]
+  conf: high
+article-20362:
+  fp: ef7e6f8bdb16
+  drug_class: [neuromuscular-blockers-and-reversal]
+  conf: high
+article-20363:
+  fp: 228d700cfeeb
+  drug_class: [neuromuscular-blockers-and-reversal]
+  conf: high
+article-20404:
+  fp: f59889275dc7
+  drug_class: [general-anesthetics]
+  conf: high
+article-20405:
+  fp: 194073a02deb
+  drug_class: [other-antidepressants]
+  conf: high
+article-20407:
+  fp: c0daa8d0b22d
+  drug_class: [pituitary-and-obstetric-agents, hemostatics-and-blood-products]
+  conf: medium
+article-20422:
+  fp: 808603bd39db
+  drug_class: [corticosteroids]
+  conf: high
+article-20424:
+  fp: b18997d3a281
+  drug_class: [general-anesthetics]
+  conf: high
+article-20425:
+  fp: 2d75f0970317
+  drug_class: [fluids-electrolytes-and-nutrition]
+  conf: high
+article-20426:
+  fp: 7c77f34084f1
+  drug_class: [cough-cold-and-mucolytics]
+  conf: high
+article-20488:
+  fp: 77d66fe10858
+  drug_class: [benzodiazepines]
+  conf: high
+article-20495:
+  fp: 8ccebb485cde
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-20531:
+  fp: 28391059fcb6
+  drug_class: [calcium-channel-blockers]
+  conf: high
+article-20532:
+  fp: 92c2b5b9657b
+  drug_class: [antidotes-and-chelators]
+  conf: high
+article-20535:
+  fp: 14e5b0e55a26
+  drug_class: [antihistamines]
+  conf: high
+article-20538:
+  fp: 86bc89abfd5d
+  drug_class: [laxatives-and-antidiarrheals]
+  conf: high
+article-20544:
+  fp: 936aab65308b
+  drug_class: [antiplatelets]
+  conf: high
+article-20574:
+  fp: 1aec8eecf12b
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-20598:
+  fp: 517dd25eeaf4
+  drug_class: [antiarrhythmics]
+  conf: high
+article-20621:
+  fp: 97fc3791e3b7
+  drug_class: [substance-use-treatment]
+  conf: high
+article-20623:
+  fp: f298b9a44780
+  drug_class: [diuretics]
+  conf: high
+article-20644:
+  fp: 943051d0374e
+  drug_class: [vasopressors-and-inotropes]
+  conf: high
+article-20645:
+  fp: 9f7461713db5
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-20649:
+  fp: eb9ff393dbb2
+  drug_class: [antiarrhythmics]
+  conf: high
+article-20656:
+  fp: a3961ba05751
+  drug_class: [dementia-agents]
+  conf: high
+article-20657:
+  fp: 86214f99640a
+  drug_class: [vasopressors-and-inotropes]
+  conf: high
+article-20658:
+  fp: bfc9402dcde5
+  drug_class: [antiparkinson]
+  conf: high
+article-20694:
+  fp: dc0ddbbdfc70
+  drug_class: [alpha-agents-and-central-antihypertensives]
+  conf: medium
+article-20695:
+  fp: 49b7bdb8c05e
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-20751:
+  fp: 47076da179e8
+  drug_class: [ssris-and-snris]
+  conf: high
+article-20920:
+  fp: a92d11993a93
+  drug_class: [antiretrovirals]
+  conf: high
+article-21054:
+  fp: 7b9fb7fcba0e
+  drug_class: [antiretrovirals]
+  conf: high
+article-21055:
+  fp: fed154c1a34c
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-21125:
+  fp: 5b130de68dcf
+  drug_class: [general-anesthetics]
+  conf: medium
+article-21136:
+  fp: 830ee7f26c59
+  drug_class: [anticoagulants]
+  conf: high
+article-21194:
+  fp: 5391a3768c3d
+  drug_class: [vasopressors-and-inotropes]
+  conf: medium
+article-21231:
+  fp: 866e584682fb
+  drug_class: [opioids]
+  conf: high
+article-21247:
+  fp: 18c46d4e12cd
+  drug_class: [antihistamines]
+  conf: medium
+article-21248:
+  fp: 519b82b68a9a
+  drug_class: [vasopressors-and-inotropes]
+  conf: medium
+article-21264:
+  fp: e31b634662b5
+  drug_class: [diuretics]
+  conf: high
+article-21266:
+  fp: 87bd74fc60a9
+  drug_class: [hematopoietic-agents]
+  conf: high
+article-21269:
+  fp: 482f43a9fd98
+  drug_class: [antiplatelets]
+  conf: high
+article-21286:
+  fp: 1ddc4d674795
+  drug_class: [kinase-inhibitors]
+  conf: high
+article-21312:
+  fp: 3696d2ea0d14
+  drug_class: [macrolides-and-lincosamides]
+  conf: high
+article-21317:
+  fp: 3538d9cfc4f8
+  drug_class: [hematopoietic-agents]
+  conf: high
+article-21323:
+  fp: 0456e00ef0dc
+  drug_class: [beta-blockers]
+  conf: high
+article-21377:
+  fp: b16ac16a20b9
+  drug_class: [sex-hormones-and-modulators]
+  conf: high
+article-21380:
+  fp: 5efe9743d97c
+  drug_class: [sex-hormones-and-modulators]
+  conf: high
+article-21381:
+  fp: 028bcc161cd3
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-21382:
+  fp: 94aef688e4ac
+  drug_class: [diuretics]
+  conf: high
+article-21383:
+  fp: 8e9830acdcb4
+  drug_class: [antituberculars]
+  conf: high
+article-21384:
+  fp: 29bb44fa55a4
+  drug_class: [antidotes-and-chelators]
+  conf: medium
+article-21395:
+  fp: b8b35d57b22a
+  drug_class: [antiseizure]
+  conf: high
+article-21397:
+  fp: a191cea84c39
+  drug_class: [antidotes-and-chelators]
+  conf: high
+article-21399:
+  fp: c6073d5d2df8
+  drug_class: [general-anesthetics]
+  conf: high
+article-21400:
+  fp: 46b8e6ea7df8
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-21621:
+  fp: b856f1406993
+  drug_class: [acid-suppressants]
+  conf: high
+article-21669:
+  fp: 8a07b72b001c
+  drug_class: [antiseizure]
+  conf: high
+article-21694:
+  fp: 1776ffbdbeb8
+  drug_class: [opioids]
+  conf: high
+article-21695:
+  fp: 4b7dbeb0580a
+  drug_class: [opioids]
+  conf: high
+article-21720:
+  fp: 825b0948f38f
+  drug_class: [antihistamines]
+  conf: high
+article-21723:
+  fp: 9f27517632d2
+  drug_class: [lipid-lowering]
+  conf: high
+article-21725:
+  fp: 88e8db81f168
+  drug_class: [hemostatics-and-blood-products]
+  conf: high
+article-21758:
+  fp: 0fdd0840f32f
+  drug_class: [hematopoietic-agents]
+  conf: high
+article-21771:
+  fp: 8b35d78ee59c
+  drug_class: [urologic-agents]
+  conf: high
+article-21813:
+  fp: a6bb0cd82aa3
+  drug_class: [antiarrhythmics]
+  conf: high
+article-21828:
+  fp: 888d772ca44e
+  drug_class: [antifungals]
+  conf: high
+article-21829:
+  fp: c2eca100c30b
+  drug_class: [antifungals]
+  conf: high
+article-21830:
+  fp: 36026c3483f3
+  drug_class: [pharmacology-concepts]
+  conf: high
+article-21842:
+  fp: 96df7d80ae2d
+  drug_class: [benzodiazepines]
+  conf: high
+article-21848:
+  fp: 708228cd4d5e
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-21850:
+  fp: 78f8fa7f6544
+  drug_class: [ssris-and-snris]
+  conf: high
+article-21851:
+  fp: 51137d952f66
+  drug_class: [antipsychotics]
+  conf: high
+article-21863:
+  fp: 3677d824bedc
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-21866:
+  fp: caf4c88b9324
+  drug_class: [vitamins-and-minerals]
+  conf: medium
+article-21935:
+  fp: 7a99d35bddfe
+  drug_class: [antivirals]
+  conf: high
+article-21936:
+  fp: 29cf59a3d365
+  drug_class: [antiseizure]
+  conf: high
+article-21965:
+  fp: 8318c56afad0
+  drug_class: [hemostatics-and-blood-products]
+  conf: high
+article-21989:
+  fp: 041271a92641
+  drug_class: [hormonal-cancer-therapy]
+  conf: high
+article-22006:
+  fp: b4bc609b842c
+  drug_class: [diuretics]
+  conf: high
+article-22015:
+  fp: 056c4ec48431
+  drug_class: [antiseizure, nsaids-and-analgesics]
+  conf: medium
+article-22124:
+  fp: a21203fa8d9d
+  drug_class: [lipid-lowering]
+  conf: high
+article-22211:
+  fp: a264b59d27c0
+  drug_class: [aminoglycosides]
+  conf: high
+article-22252:
+  fp: 75513c392399
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-22253:
+  fp: 2194c2cc27c5
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-22256:
+  fp: c54c8bae163d
+  drug_class: [insulins]
+  conf: high
+article-22259:
+  fp: 0bcf5f931c8a
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-22303:
+  fp: b8bd728a551c
+  drug_class: [other-antidiabetics]
+  conf: low
+article-22328:
+  fp: dbf3b1204c59
+  drug_class: [other-antidiabetics]
+  conf: high
+article-22338:
+  fp: 3f508be48d63
+  drug_class: [antiplatelets]
+  conf: high
+article-22435:
+  fp: ad83a984b148
+  drug_class: [antifungals]
+  conf: high
+article-22473:
+  fp: 58539edf2fdc
+  drug_class: [acid-suppressants]
+  conf: high
+article-22478:
+  fp: 22107785e344
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-22502:
+  fp: 01f1a3f52733
+  drug_class: [corticosteroids]
+  conf: high
+article-22504:
+  fp: df4afffe65f9
+  drug_class: [antipsychotics]
+  conf: high
+article-22769:
+  fp: e5313d110eab
+  drug_class: [anticoagulants]
+  conf: high
+article-22786:
+  fp: c0c7c33e7ad0
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-22789:
+  fp: 69e83d25185f
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-22917:
+  fp: 28278b277d3f
+  drug_class: [antiretrovirals]
+  conf: high
+article-22953:
+  fp: 75658b691a5b
+  drug_class: [lipid-lowering]
+  conf: high
+article-22996:
+  fp: 7874dbbaa080
+  drug_class: [sex-hormones-and-modulators]
+  conf: high
+article-23027:
+  fp: f96f2fa9c700
+  drug_class: [insulins]
+  conf: high
+article-23033:
+  fp: 1aedd8ba9e02
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-23060:
+  fp: 8648b87de182
+  drug_class: [pharmacology-concepts]
+  conf: low
+article-23063:
+  fp: c6671fc81f6d
+  drug_class: [nitrates-and-vasodilators]
+  conf: high
+article-23072:
+  fp: 210814a476d8
+  drug_class: [diuretics]
+  conf: high
+article-23073:
+  fp: ac82f4984664
+  drug_class: [opioids]
+  conf: high
+article-23077:
+  fp: 08d7bf12a974
+  drug_class: [opioids]
+  conf: high
+article-23083:
+  fp: 637e304fef45
+  drug_class: [vitamins-and-minerals, antidotes-and-chelators]
+  conf: medium
+article-23330:
+  fp: 092d40f9e008
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-23332:
+  fp: 648c120b7c41
+  drug_class: [antiarrhythmics]
+  conf: high
+article-23354:
+  fp: b96a75ccc6ca
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-23376:
+  fp: 827ff825d05e
+  drug_class: [kinase-inhibitors]
+  conf: high
+article-23380:
+  fp: edff7655feb4
+  drug_class: [other-antidepressants]
+  conf: high
+article-23408:
+  fp: d9ba1ff618ce
+  drug_class: [immunomodulators-and-dmards]
+  conf: low
+article-23461:
+  fp: e0aa628a8b76
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-23511:
+  fp: c7bebc54cfb7
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: high
+article-23513:
+  fp: a06c51b084c6
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-23534:
+  fp: 7fc3bf86e4d7
+  drug_class: [general-anesthetics]
+  conf: high
+article-23537:
+  fp: 465ddbc8be0a
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-23551:
+  fp: 34bae599ed2e
+  drug_class: [vasopressors-and-inotropes]
+  conf: high
+article-23563:
+  fp: a43b6abab518
+  drug_class: [insulins]
+  conf: high
+article-23564:
+  fp: 5977f0ed4a20
+  drug_class: [insulins]
+  conf: high
+article-23568:
+  fp: 4c2a6ba0ec59
+  drug_class: [insulins]
+  conf: high
+article-23597:
+  fp: 5ad6a4eea83c
+  drug_class: [immunomodulators-and-dmards, antivirals]
+  conf: medium
+article-23720:
+  fp: dddf53a75546
+  drug_class: [opioids]
+  conf: high
+article-23729:
+  fp: 7aaa4dcaf831
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-23758:
+  fp: 2534977b756b
+  drug_class: [pharmacology-concepts]
+  conf: high
+article-23759:
+  fp: fab41da99e51
+  drug_class: [antidotes-and-chelators]
+  conf: high
+article-23760:
+  fp: dd0833cfc27c
+  drug_class: [bronchodilators]
+  conf: high
+article-23768:
+  fp: 8a93dcfd49d6
+  drug_class: [hematopoietic-agents]
+  conf: high
+article-23770:
+  fp: 7f310f86621d
+  drug_class: [hematopoietic-agents]
+  conf: high
+article-23782:
+  fp: 369e1b60b38b
+  drug_class: [general-anesthetics]
+  conf: high
+article-23786:
+  fp: 90a752b7643e
+  drug_class: [antituberculars]
+  conf: high
+article-23788:
+  fp: 70a8c1c56fe2
+  drug_class: [vasopressors-and-inotropes]
+  conf: medium
+article-23789:
+  fp: d90ef552fb95
+  drug_class: [nitrates-and-vasodilators]
+  conf: high
+article-23791:
+  fp: d3a61ed0f31a
+  drug_class: [dermatologic-agents]
+  conf: high
+article-23794:
+  fp: d1c3b330793f
+  drug_class: [antifungals]
+  conf: high
+article-23876:
+  fp: c9b4796a2287
+  drug_class: [general-anesthetics]
+  conf: high
+article-23880:
+  fp: 080a2918480e
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-23965:
+  fp: b35cf1484be5
+  drug_class: [antiparkinson]
+  conf: high
+article-23970:
+  fp: dde671c330a3
+  drug_class: [beta-blockers, alpha-agents-and-central-antihypertensives]
+  conf: medium
+article-24004:
+  fp: 60d4016f280c
+  drug_class: [laxatives-and-antidiarrheals]
+  conf: high
+article-24014:
+  fp: 06f3d3475e25
+  drug_class: [antiretrovirals]
+  conf: high
+article-24015:
+  fp: 59c2203a10b8
+  drug_class: [antiseizure, mood-stabilizers]
+  conf: high
+article-24120:
+  fp: 2838ddc1ef8a
+  drug_class: [laxatives-and-antidiarrheals]
+  conf: high
+article-24206:
+  fp: 28fed5788963
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-24221:
+  fp: 55486ab44cf1
+  drug_class: [asthma-controllers]
+  conf: high
+article-24223:
+  fp: 1a643b9fa151
+  drug_class: [hormonal-cancer-therapy]
+  conf: medium
+article-24231:
+  fp: 11fbae7e1ca8
+  drug_class: [antiseizure]
+  conf: high
+article-24232:
+  fp: ddc6da010b15
+  drug_class: [sex-hormones-and-modulators]
+  conf: high
+article-24233:
+  fp: ccfe4eeace3e
+  drug_class: [thyroid-agents]
+  conf: high
+article-24262:
+  fp: 9e830af116fd
+  drug_class: [local-anesthetics, antiarrhythmics]
+  conf: medium
+article-24291:
+  fp: 6bd74073c97e
+  drug_class: [other-antibacterials]
+  conf: high
+article-24306:
+  fp: 691d630a4251
+  drug_class: [lipid-lowering]
+  conf: high
+article-24344:
+  fp: 5a7a8423485f
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-24349:
+  fp: c6b05fd5a2fc
+  drug_class: [mood-stabilizers]
+  conf: high
+article-24393:
+  fp: 3cc3d51223b1
+  drug_class: [local-anesthetics]
+  conf: high
+article-24416:
+  fp: 8bf3f68113f7
+  drug_class: [diuretics]
+  conf: high
+article-24418:
+  fp: c07f994fcc6d
+  drug_class: [laxatives-and-antidiarrheals]
+  conf: high
+article-24421:
+  fp: 9fa86cef97b7
+  drug_class: [antihistamines]
+  conf: high
+article-24422:
+  fp: b967f2c2aada
+  drug_class: [benzodiazepines]
+  conf: high
+article-24433:
+  fp: f7a332367895
+  drug_class: [anticoagulants]
+  conf: high
+article-24625:
+  fp: d156b4303c04
+  drug_class: [macrolides-and-lincosamides]
+  conf: high
+article-24640:
+  fp: 52934d2ca927
+  drug_class: [fluids-electrolytes-and-nutrition]
+  conf: high
+article-24644:
+  fp: 14988b2dd566
+  drug_class: [fluids-electrolytes-and-nutrition]
+  conf: high
+article-24732:
+  fp: b1afda917811
+  drug_class: [diuretics]
+  conf: high
+article-24736:
+  fp: 2f62dbf467f8
+  drug_class: [other-antidepressants]
+  conf: high
+article-24747:
+  fp: be4ff9e151d8
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-24812:
+  fp: 1d0b012f9654
+  drug_class: [antiparasitics]
+  conf: high
+article-24900:
+  fp: 79552c1897c6
+  drug_class: [sex-hormones-and-modulators]
+  conf: high
+article-24918:
+  fp: ffba2119d52d
+  drug_class: [sex-hormones-and-modulators]
+  conf: high
+article-24945:
+  fp: 68c2dd4df977
+  drug_class: [dementia-agents]
+  conf: high
+article-24976:
+  fp: 7780cbd4a795
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-25000:
+  fp: 5209ded75c20
+  drug_class: [opioids]
+  conf: high
+article-25003:
+  fp: 63a2bfef982c
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-25025:
+  fp: deedb2572c6a
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-25065:
+  fp: 44321764245c
+  drug_class: [other-antidiabetics]
+  conf: high
+article-25067:
+  fp: 8ac2ac52f740
+  drug_class: [opioids, substance-use-treatment]
+  conf: medium
+article-25068:
+  fp: 23d6afcb8703
+  drug_class: [stimulants-and-adhd]
+  conf: high
+article-25075:
+  fp: a809ed706feb
+  drug_class: [thyroid-agents]
+  conf: high
+article-25077:
+  fp: f9dfeb9cb5fe
+  drug_class: [general-anesthetics]
+  conf: high
+article-25081:
+  fp: 36762f37bf81
+  drug_class: [alpha-agents-and-central-antihypertensives]
+  conf: high
+article-25085:
+  fp: ced011a950f6
+  drug_class: [stimulants-and-adhd]
+  conf: high
+article-25086:
+  fp: add57e447c23
+  drug_class: [bronchodilators]
+  conf: high
+article-25088:
+  fp: 07884832b0d2
+  drug_class: [antiemetics]
+  conf: high
+article-25089:
+  fp: 26eb84602a76
+  drug_class: [beta-blockers]
+  conf: high
+article-25091:
+  fp: 58bf2b0fc2a5
+  drug_class: [other-antibacterials]
+  conf: high
+article-25118:
+  fp: 37ca671ef64b
+  drug_class: [benzodiazepines]
+  conf: high
+article-25142:
+  fp: 127659e2d8d9
+  drug_class: [pituitary-and-obstetric-agents]
+  conf: high
+article-25168:
+  fp: ae8eea6dba31
+  drug_class: [vasopressors-and-inotropes]
+  conf: high
+article-25180:
+  fp: 7fb418e4c4fb
+  drug_class: [tetracyclines]
+  conf: high
+article-25181:
+  fp: 842e29d96334
+  drug_class: [nitrates-and-vasodilators]
+  conf: high
+article-25185:
+  fp: 5a8c756640f0
+  drug_class: [other-antidepressants]
+  conf: high
+article-25188:
+  fp: 0b4d65f9a873
+  drug_class: [pituitary-and-obstetric-agents]
+  conf: high
+article-25196:
+  fp: f9e3ea1cdf04
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-25212:
+  fp: 6a9e32606b2a
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-25245:
+  fp: 0c7835f661ed
+  drug_class: [other-antidepressants]
+  conf: high
+article-25257:
+  fp: a4d786c2acff
+  drug_class: [asthma-controllers]
+  conf: high
+article-25260:
+  fp: 8f804c0cb5f7
+  drug_class: [mood-stabilizers]
+  conf: high
+article-25271:
+  fp: dee83966e503
+  drug_class: [opioids]
+  conf: high
+article-25318:
+  fp: cce688120303
+  drug_class: [cough-cold-and-mucolytics]
+  conf: high
+article-25378:
+  fp: bf81674ebd6c
+  drug_class: [cholinergic-and-anticholinergic]
+  conf: high
+article-25379:
+  fp: 8e841d0e3a5e
+  drug_class: [cholinergic-and-anticholinergic]
+  conf: high
+article-25500:
+  fp: de21f29c2a6b
+  drug_class: [antidotes-and-chelators]
+  conf: high
+article-25515:
+  fp: ab56b05080fb
+  drug_class: [opioids]
+  conf: high
+article-25518:
+  fp: 607fc6df27e3
+  drug_class: [opioids]
+  conf: high
+article-25519:
+  fp: ebac499adf84
+  drug_class: [substance-use-treatment]
+  conf: high
+article-25522:
+  fp: a2b07a10a5fe
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-25578:
+  fp: c1b3c5101ce2
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: high
+article-25650:
+  fp: 76938099489d
+  drug_class: [aminoglycosides]
+  conf: high
+article-25690:
+  fp: 946fe7de8bb8
+  drug_class: [neuromuscular-blockers-and-reversal]
+  conf: high
+article-25714:
+  fp: ac36cf073799
+  drug_class: [pharmacology-concepts]
+  conf: high
+article-25800:
+  fp: ce8967d55cfa
+  drug_class: [antipsychotics]
+  conf: high
+article-25811:
+  fp: d1de118d6166
+  drug_class: [neuromuscular-blockers-and-reversal]
+  conf: high
+article-25812:
+  fp: d8d38aed96e1
+  drug_class: [neuromuscular-blockers-and-reversal]
+  conf: high
+article-25853:
+  fp: 0c8824310c6a
+  drug_class: [antiretrovirals]
+  conf: high
+article-25878:
+  fp: c9d59fd34cda
+  drug_class: [substance-use-treatment]
+  conf: high
+article-25883:
+  fp: 957aa37bbb4b
+  drug_class: [calcium-channel-blockers]
+  conf: high
+article-25891:
+  fp: 567f6e2cadda
+  drug_class: [calcium-channel-blockers]
+  conf: high
+article-25895:
+  fp: a8c9b67d6cdb
+  drug_class: [nitrates-and-vasodilators]
+  conf: high
+article-25896:
+  fp: c9acabbb81fe
+  drug_class: [nitrates-and-vasodilators]
+  conf: medium
+article-25897:
+  fp: eaf072359c78
+  drug_class: [other-antibacterials]
+  conf: high
+article-25900:
+  fp: 459e19dfde35
+  drug_class: [nitrates-and-vasodilators]
+  conf: high
+article-25904:
+  fp: e3ceeeb8e8ed
+  drug_class: [general-anesthetics]
+  conf: high
+article-25968:
+  fp: 271339a29021
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-25972:
+  fp: c3ab70e7274d
+  drug_class: [vasopressors-and-inotropes]
+  conf: high
+article-25982:
+  fp: 7ace841fb33e
+  drug_class: [fluids-electrolytes-and-nutrition]
+  conf: high
+article-25988:
+  fp: ed0f68c7fd64
+  drug_class: [other-antidepressants]
+  conf: high
+article-26003:
+  fp: 3ff9dc1c4c8c
+  drug_class: [insulins]
+  conf: high
+article-26112:
+  fp: c7d91025d47c
+  drug_class: [pituitary-and-obstetric-agents]
+  conf: high
+article-26140:
+  fp: 7eed9dc811fe
+  drug_class: [fluoroquinolones]
+  conf: high
+article-26143:
+  fp: cdfce06ebe6d
+  drug_class: [antipsychotics]
+  conf: high
+article-26162:
+  fp: d61b96f20032
+  drug_class: [asthma-controllers, monoclonal-antibodies]
+  conf: medium
+article-26163:
+  fp: f7ed8464f263
+  drug_class: [lipid-lowering]
+  conf: high
+article-26168:
+  fp: bd0ae3a65038
+  drug_class: [acid-suppressants]
+  conf: high
+article-26181:
+  fp: 7ab89901d0a0
+  drug_class: [antiemetics]
+  conf: high
+article-26215:
+  fp: 53c79a88a8fb
+  drug_class: [opioids]
+  conf: high
+article-26223:
+  fp: cbd56b77b8e8
+  drug_class: [opioids]
+  conf: high
+article-26224:
+  fp: 4b79b74af90b
+  drug_class: [opioids]
+  conf: medium
+article-26256:
+  fp: 769023b6737b
+  drug_class: [sex-hormones-and-modulators]
+  conf: high
+article-26266:
+  fp: 944a31b60d70
+  drug_class: [other-antidiabetics]
+  conf: high
+article-26335:
+  fp: 9e4f4f8a6a0d
+  drug_class: [incretin-agents]
+  conf: high
+article-26358:
+  fp: 18b5fa2d7bb6
+  drug_class: [antivirals]
+  conf: high
+article-26481:
+  fp: d097df80fbd3
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-26483:
+  fp: ca2e460782dc
+  drug_class: [benzodiazepines]
+  conf: high
+article-26484:
+  fp: 1e7da22dfcd8
+  drug_class: [antiseizure]
+  conf: high
+article-26487:
+  fp: f989dd2289f4
+  drug_class: [urologic-agents]
+  conf: high
+article-26488:
+  fp: 02eaa50f1bac
+  drug_class: [opioids]
+  conf: high
+article-26498:
+  fp: 1f0fd4940427
+  drug_class: [pituitary-and-obstetric-agents]
+  conf: high
+article-26519:
+  fp: f013d1ed87b3
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-26552:
+  fp: be6d53f41269
+  drug_class: [bone-agents]
+  conf: high
+article-26556:
+  fp: 10c3c15243bb
+  drug_class: [other-gi-agents]
+  conf: high
+article-26582:
+  fp: a8347f13fbcc
+  drug_class: [neuromuscular-blockers-and-reversal]
+  conf: high
+article-26588:
+  fp: b73d37a887d5
+  drug_class: [acid-suppressants]
+  conf: high
+article-26655:
+  fp: a657f305ffb0
+  drug_class: [cholinergic-and-anticholinergic]
+  conf: high
+article-26693:
+  fp: c67638dc1154
+  drug_class: [ssris-and-snris]
+  conf: high
+article-26779:
+  fp: cebb9d622d08
+  drug_class: [urologic-agents]
+  conf: high
+article-26846:
+  fp: 9d7b049e0fb7
+  drug_class: [hematopoietic-agents]
+  conf: high
+article-26890:
+  fp: 4f8d8c5f0a44
+  drug_class: [antidotes-and-chelators, immunomodulators-and-dmards]
+  conf: medium
+article-26891:
+  fp: 51743b5e6d40
+  drug_class: [penicillins]
+  conf: high
+article-26908:
+  fp: d1af00bd81d1
+  drug_class: [antiparasitics]
+  conf: high
+article-27033:
+  fp: b5a09e34548d
+  drug_class: [antiparasitics]
+  conf: high
+article-27111:
+  fp: d3c84be4c6b4
+  drug_class: [other-antidepressants]
+  conf: high
+article-27112:
+  fp: 4a5575874966
+  drug_class: [sedative-hypnotics, antiseizure]
+  conf: medium
+article-27114:
+  fp: 0307a1ed2931
+  drug_class: [antipsychotics]
+  conf: high
+article-27115:
+  fp: faa01590351e
+  drug_class: [alpha-agents-and-central-antihypertensives]
+  conf: high
+article-27119:
+  fp: 11ee4869496b
+  drug_class: [vasopressors-and-inotropes]
+  conf: medium
+article-27122:
+  fp: 2944ca219446
+  drug_class: [antiseizure]
+  conf: high
+article-27139:
+  fp: 3f3d29878a57
+  drug_class: [urologic-agents]
+  conf: medium
+article-27238:
+  fp: 5d539cc1056e
+  drug_class: [other-antidiabetics]
+  conf: high
+article-27346:
+  fp: 3f80e7cc18eb
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-27407:
+  fp: 56b9f7c5e55c
+  drug_class: [laxatives-and-antidiarrheals]
+  conf: high
+article-27418:
+  fp: 1bb0951ad8e8
+  drug_class: [other-antibacterials]
+  conf: high
+article-27573:
+  fp: a12dc86555fe
+  drug_class: [fluids-electrolytes-and-nutrition]
+  conf: high
+article-27574:
+  fp: e6992dadacdd
+  drug_class: [thyroid-agents]
+  conf: high
+article-27591:
+  fp: 1f54e16104d9
+  drug_class: [antidotes-and-chelators]
+  conf: high
+article-27592:
+  fp: 649c5095cafb
+  drug_class: [antiparkinson]
+  conf: high
+article-27618:
+  fp: 13a23fe67476
+  drug_class: [nsaids-and-analgesics]
+  conf: medium
+article-27671:
+  fp: f481aa928014
+  drug_class: [other-antibacterials]
+  conf: high
+article-27742:
+  fp: 8edfe546705f
+  drug_class: [antiseizure]
+  conf: high
+article-27756:
+  fp: ca7d17782d2a
+  drug_class: [other-gi-agents]
+  conf: high
+article-27760:
+  fp: 7fc490f83347
+  drug_class: [antiarrhythmics]
+  conf: high
+article-27761:
+  fp: 20085ab939f2
+  drug_class: [local-anesthetics]
+  conf: high
+article-27768:
+  fp: 8595e78ec25e
+  drug_class: [antiemetics, antipsychotics]
+  conf: medium
+article-27805:
+  fp: 1012ae688645
+  drug_class: [antihistamines, antiemetics]
+  conf: medium
+article-27816:
+  fp: 56dc572607d3
+  drug_class: [general-anesthetics]
+  conf: high
+article-27818:
+  fp: dd568a05f02c
+  drug_class: [beta-blockers]
+  conf: high
+article-27821:
+  fp: 0ee33b6f90f4
+  drug_class: [thyroid-agents]
+  conf: high
+article-27827:
+  fp: f37bf469a49b
+  drug_class: [pituitary-and-obstetric-agents]
+  conf: high
+article-27830:
+  fp: 12ed30bb8d8e
+  drug_class: [pituitary-and-obstetric-agents]
+  conf: medium
+article-27870:
+  fp: b32ac4b6565f
+  drug_class: [hemostatics-and-blood-products]
+  conf: high
+article-27891:
+  fp: df949ef777a7
+  drug_class: [hemostatics-and-blood-products]
+  conf: high
+article-27894:
+  fp: c8be1ec7b83b
+  drug_class: [acid-suppressants]
+  conf: high
+article-27900:
+  fp: 43d755b5abff
+  drug_class: [other-antidepressants]
+  conf: high
+article-28152:
+  fp: 689edad3f933
+  drug_class: [antipsychotics]
+  conf: high
+article-28154:
+  fp: 1a965c696a84
+  drug_class: [antiarrhythmics, antiparasitics]
+  conf: medium
+article-28156:
+  fp: 0502b3e9cadf
+  drug_class: [fluoroquinolones]
+  conf: high
+article-28198:
+  fp: d1774be9a2fe
+  drug_class: [thyroid-agents]
+  conf: high
+article-28224:
+  fp: 3c14854a076f
+  drug_class: [sex-hormones-and-modulators]
+  conf: medium
+article-28226:
+  fp: 35c458f07687
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-28498:
+  fp: 704556706e3f
+  drug_class: [antiretrovirals]
+  conf: high
+article-28562:
+  fp: 3cfcb419cb5f
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-28588:
+  fp: ae79d03ca8d3
+  drug_class: [antituberculars]
+  conf: high
+article-28589:
+  fp: 742179f57969
+  drug_class: [other-gi-agents]
+  conf: high
+article-28607:
+  fp: 1f1480107f59
+  drug_class: [fluids-electrolytes-and-nutrition]
+  conf: high
+article-28625:
+  fp: 107396d3f345
+  drug_class: [antipsychotics]
+  conf: high
+article-28627:
+  fp: 440cabaeec4f
+  drug_class: [antiretrovirals]
+  conf: high
+article-28629:
+  fp: 75a932aa77d0
+  drug_class: [dementia-agents]
+  conf: high
+article-28645:
+  fp: 0af1424495d0
+  drug_class: [other-antidiabetics]
+  conf: high
+article-28670:
+  fp: a2d33064a2aa
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-28695:
+  fp: a0069b2955c9
+  drug_class: [nsaids-and-analgesics, antiplatelets]
+  conf: medium
+article-28789:
+  fp: 7c9b0e1e5eb9
+  drug_class: [antiemetics]
+  conf: medium
+article-28837:
+  fp: 1744d2967667
+  drug_class: [antiseizure]
+  conf: high
+article-28847:
+  fp: c1e0214c329d
+  drug_class: [beta-blockers]
+  conf: high
+article-28852:
+  fp: 0fe117ab31e1
+  drug_class: [ssris-and-snris]
+  conf: high
+article-28854:
+  fp: 518527c4abe9
+  drug_class: [antiparkinson]
+  conf: high
+article-28926:
+  fp: 0a4ec75efa6b
+  drug_class: [ssris-and-snris]
+  conf: high
+article-29028:
+  fp: 71473696a509
+  drug_class: [other-antibacterials]
+  conf: high
+article-29030:
+  fp: 96409e7a814e
+  drug_class: [other-gi-agents]
+  conf: high
+article-29036:
+  fp: 0736966c0abc
+  drug_class: [lipid-lowering]
+  conf: high
+article-29087:
+  fp: fe64a5db6e01
+  drug_class: [dermatologic-agents]
+  conf: high
+article-29196:
+  fp: 0d90d64c25a0
+  drug_class: [fluids-electrolytes-and-nutrition]
+  conf: high
+article-29200:
+  fp: 80e3522c75f9
+  drug_class: [nitrates-and-vasodilators]
+  conf: high
+article-29201:
+  fp: 1b8ecb369c03
+  drug_class: [fluids-electrolytes-and-nutrition]
+  conf: high
+article-29236:
+  fp: 117b50d100b8
+  drug_class: [antiarrhythmics, beta-blockers]
+  conf: medium
+article-29371:
+  fp: dd6343a9afe4
+  drug_class: [diuretics]
+  conf: high
+article-29424:
+  fp: ee090a19b96a
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-29463:
+  fp: cd55ae2d46ad
+  drug_class: [lipid-lowering]
+  conf: high
+article-29503:
+  fp: a9aac6ec6c3c
+  drug_class: [stimulants-and-adhd]
+  conf: high
+article-29536:
+  fp: 336e3ed46fbe
+  drug_class: [aminoglycosides, antituberculars]
+  conf: medium
+article-29653:
+  fp: 587a555a05f2
+  drug_class: [acid-suppressants]
+  conf: high
+article-29661:
+  fp: 6d081c0edaf2
+  drug_class: [neuromuscular-blockers-and-reversal]
+  conf: high
+article-29669:
+  fp: 7f3825c7ba89
+  drug_class: [immunomodulators-and-dmards, other-gi-agents]
+  conf: medium
+article-29673:
+  fp: b093faf81ffa
+  drug_class: [other-antidiabetics]
+  conf: high
+article-29677:
+  fp: 33d1f3da098f
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-29679:
+  fp: a0446f5230e1
+  drug_class: [migraine-agents]
+  conf: high
+article-29687:
+  fp: 3e2de86b6bb7
+  drug_class: [dermatologic-agents]
+  conf: high
+article-29757:
+  fp: 37acb7a7249d
+  drug_class: [pharmacology-concepts]
+  conf: low
+article-29801:
+  fp: 08642d077294
+  drug_class: [adrenergic-agents]
+  conf: high
+article-29856:
+  fp: bb4b19316b5e
+  drug_class: [immunosuppressants]
+  conf: high
+article-29869:
+  fp: 31db0562d1c9
+  drug_class: [hormonal-cancer-therapy]
+  conf: high
+article-29893:
+  fp: 1b11af126315
+  drug_class: [pharmacology-concepts]
+  conf: high
+article-29899:
+  fp: 4cdbcef14b59
+  drug_class: [pharmacology-concepts]
+  conf: high
+article-29998:
+  fp: c550cf15bb30
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-30000:
+  fp: 613b2b6a92d5
+  drug_class: [tetracyclines]
+  conf: high
+article-30018:
+  fp: c969ecf26aa3
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-30036:
+  fp: 95b8829b39fa
+  drug_class: [bronchodilators]
+  conf: high
+article-30053:
+  fp: e11f7e7c2c6b
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-30055:
+  fp: d4ede3d5d5c6
+  drug_class: [diuretics]
+  conf: high
+article-30056:
+  fp: 953a5a5d6751
+  drug_class: [other-antidiabetics]
+  conf: high
+article-30059:
+  fp: 7a0544b49b9d
+  drug_class: [antipsychotics]
+  conf: high
+article-30061:
+  fp: add6f82f55b5
+  drug_class: [cephalosporins]
+  conf: high
+article-30105:
+  fp: 81056a359ad2
+  drug_class: [thrombolytics]
+  conf: high
+article-30226:
+  fp: f21bb707e102
+  drug_class: [muscle-relaxants]
+  conf: high
+article-30239:
+  fp: 73a0349023d6
+  drug_class: [antiparkinson]
+  conf: high
+article-30241:
+  fp: 667bd37345dc
+  drug_class: [urologic-agents]
+  conf: high
+article-30265:
+  fp: 51d59f63018d
+  drug_class: [corticosteroids]
+  conf: high
+article-30267:
+  fp: b62b29767886
+  drug_class: [antiseizure]
+  conf: high
+article-30285:
+  fp: 2cb196cae5eb
+  drug_class: [fluids-electrolytes-and-nutrition]
+  conf: high
+article-30402:
+  fp: c6fecb1940ed
+  drug_class: [thrombolytics]
+  conf: high
+article-30418:
+  fp: 3459e09a5466
+  drug_class: [general-anesthetics]
+  conf: high
+article-30446:
+  fp: bb55661ebde1
+  drug_class: [opioids]
+  conf: high
+article-30451:
+  fp: 8226577d313f
+  drug_class: [pharmacology-concepts]
+  conf: high
+article-30526:
+  fp: 180f746fcb20
+  drug_class: [other-antidepressants]
+  conf: high
+article-30530:
+  fp: 65af75e67e01
+  drug_class: [kinase-inhibitors, monoclonal-antibodies]
+  conf: low
+article-30555:
+  fp: 9e0c9cb2b36d
+  drug_class: [other-antidepressants]
+  conf: high
+article-30571:
+  fp: 5d8c9ce96062
+  drug_class: [nitrates-and-vasodilators]
+  conf: high
+article-30575:
+  fp: c85a4a494dd6
+  drug_class: [diuretics]
+  conf: high
+article-30600:
+  fp: dfc83ab7cb01
+  drug_class: [other-antidepressants]
+  conf: high
+article-30611:
+  fp: f8f086a9f476
+  drug_class: [antiparkinson]
+  conf: high
+article-30613:
+  fp: 281b5ad70a28
+  drug_class: [other-antibacterials]
+  conf: high
+article-30620:
+  fp: 08a22f0ba0d3
+  drug_class: [migraine-agents]
+  conf: high
+article-30636:
+  fp: 2e4e14dce0bb
+  drug_class: [ophthalmic-agents]
+  conf: high
+article-30683:
+  fp: 3fdf1d0cef5f
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-30720:
+  fp: 1bafc648209a
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-30876:
+  fp: eb1b1a4cf01f
+  drug_class: [other-gi-agents]
+  conf: high
+article-30956:
+  fp: f7a01768c96e
+  drug_class: [antiseizure, mood-stabilizers]
+  conf: high
+article-30965:
+  fp: 1042b4e5b2f2
+  drug_class: [other-antibacterials]
+  conf: high
+article-30972:
+  fp: b289110f039d
+  drug_class: [substance-use-treatment]
+  conf: high
+article-30981:
+  fp: 01f879f0f674
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-30983:
+  fp: b13bcd5fa549
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-31044:
+  fp: 85e9bd8b8324
+  drug_class: [neuromuscular-blockers-and-reversal]
+  conf: high
+article-31054:
+  fp: cd11f2e894a9
+  drug_class: [ssris-and-snris]
+  conf: high
+article-31106:
+  fp: b0940e5bec7f
+  drug_class: [calcium-channel-blockers]
+  conf: high
+article-31164:
+  fp: 16799ca667f7
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-31210:
+  fp: db902ca80c08
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-31218:
+  fp: 34afa0625680
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-31219:
+  fp: b52b9a5ec5dc
+  drug_class: [lipid-lowering, vitamins-and-minerals]
+  conf: medium
+article-31221:
+  fp: b8220b711401
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-31223:
+  fp: aa754c7c628e
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-31226:
+  fp: e24578eb325a
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-31229:
+  fp: 4f10822417f8
+  drug_class: [vitamins-and-minerals]
+  conf: medium
+article-31294:
+  fp: 5b65ef53b0b0
+  drug_class: [anticoagulants]
+  conf: high
+article-31296:
+  fp: 86b6761ceb57
+  drug_class: [anticoagulants]
+  conf: high
+article-31398:
+  fp: f9be6e611943
+  drug_class: [dermatologic-agents]
+  conf: low
+article-31465:
+  fp: 44f6435db518
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-31466:
+  fp: 02528044c8da
+  drug_class: [antiretrovirals]
+  conf: high
+article-31467:
+  fp: 48cfb6a88f9c
+  drug_class: [asthma-controllers]
+  conf: high
+article-31472:
+  fp: 1fdcb4b0415b
+  drug_class: [antipsychotics]
+  conf: high
+article-31474:
+  fp: e4cd28de9900
+  drug_class: [migraine-agents]
+  conf: high
+article-31475:
+  fp: 3a7d927792ec
+  drug_class: [sedative-hypnotics]
+  conf: high
+article-31476:
+  fp: 6343ce2835d5
+  drug_class: [antiseizure]
+  conf: high
+article-31501:
+  fp: 1d39398d8a7f
+  drug_class: [local-anesthetics]
+  conf: high
+article-31506:
+  fp: 7027e734eeed
+  drug_class: [diuretics]
+  conf: high
+article-31520:
+  fp: 93fd898dc893
+  drug_class: [vitamins-and-minerals, acid-suppressants]
+  conf: medium
+article-31521:
+  fp: 0888167a6288
+  drug_class: [lipid-lowering]
+  conf: high
+article-31523:
+  fp: 7b53c644619e
+  drug_class: [laxatives-and-antidiarrheals]
+  conf: high
+article-31524:
+  fp: 8686e1d5a896
+  drug_class: [beta-blockers]
+  conf: high
+article-32779:
+  fp: a8db72f787d2
+  drug_class: [dermatologic-agents]
+  conf: medium
+article-32870:
+  fp: 1523f78af061
+  drug_class: [diuretics]
+  conf: high
+article-32876:
+  fp: 13b48db91917
+  drug_class: [other-antibacterials]
+  conf: high
+article-32881:
+  fp: d59f1fb277dc
+  drug_class: [diuretics]
+  conf: high
+article-33970:
+  fp: c7d4f129144d
+  drug_class: [incretin-agents]
+  conf: high
+article-34529:
+  fp: 8b543fcdeaae
+  drug_class: [calcium-channel-blockers]
+  conf: high
+article-35394:
+  fp: d5bb96613b11
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-35395:
+  fp: 666e901213ac
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-35398:
+  fp: b2d0746a876d
+  drug_class: [sedative-hypnotics]
+  conf: high
+article-35404:
+  fp: 7b5da835a3cb
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-35621:
+  fp: 8624c172f16f
+  drug_class: [corticosteroids]
+  conf: high
+article-35631:
+  fp: 2238347a0d2f
+  drug_class: [anticoagulants]
+  conf: high
+article-35868:
+  fp: 407eab53626c
+  drug_class: [cholinergic-and-anticholinergic]
+  conf: high
+article-35898:
+  fp: cf4aa59e4c70
+  drug_class: [dermatologic-agents]
+  conf: high
+article-35928:
+  fp: f8fab00cbfb5
+  drug_class: [aminoglycosides]
+  conf: high
+article-36012:
+  fp: a2e80f11ca92
+  drug_class: [kinase-inhibitors]
+  conf: high
+article-36013:
+  fp: f04066ed26bb
+  drug_class: [immune-checkpoint-inhibitors, monoclonal-antibodies]
+  conf: high
+article-36238:
+  fp: dad090b05790
+  drug_class: [corticosteroids]
+  conf: high
+article-36408:
+  fp: d58e5ff25549
+  drug_class: [kinase-inhibitors]
+  conf: high
+article-36481:
+  fp: 0d154124a106
+  drug_class: [antiarrhythmics]
+  conf: high
+article-36499:
+  fp: 94bb58b3159d
+  drug_class: [incretin-agents]
+  conf: high
+article-36553:
+  fp: b902ccd209d2
+  drug_class: [incretin-agents]
+  conf: high
+article-36765:
+  fp: 46294c08c266
+  drug_class: [opioids]
+  conf: high
+article-37055:
+  fp: a40f65de1ebb
+  drug_class: [ophthalmic-agents]
+  conf: high
+article-37078:
+  fp: a659302bcab5
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-37101:
+  fp: 40822cdc1378
+  drug_class: [antiemetics]
+  conf: medium
+article-37136:
+  fp: 57905b6c7ecc
+  drug_class: [laxatives-and-antidiarrheals]
+  conf: high
+article-37156:
+  fp: 1d455d244e1d
+  drug_class: [dermatologic-agents]
+  conf: medium
+article-37215:
+  fp: 09d7071ed81c
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: high
+article-37245:
+  fp: 27f80e16a0e0
+  drug_class: [ophthalmic-agents]
+  conf: high
+article-37376:
+  fp: c1a3a300680f
+  drug_class: [lipid-lowering, monoclonal-antibodies]
+  conf: high
+article-37470:
+  fp: de8f5ea245d7
+  drug_class: [stimulants-and-adhd]
+  conf: high
+article-37505:
+  fp: 18114a7ef537
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-37541:
+  fp: 686e287b39ba
+  drug_class: [penicillins]
+  conf: high
+article-37545:
+  fp: dee9c0344582
+  drug_class: [fluoroquinolones]
+  conf: high
+article-37558:
+  fp: 85dc879ef76b
+  drug_class: [opioids]
+  conf: high
+article-37573:
+  fp: 33aff8facb24
+  drug_class: [corticosteroids]
+  conf: high
+article-37574:
+  fp: 06b24271623b
+  drug_class: [dermatologic-agents]
+  conf: medium
+article-37630:
+  fp: 66e7c63ca950
+  drug_class: [fluids-electrolytes-and-nutrition]
+  conf: high
+article-37693:
+  fp: 17f09dd467ed
+  drug_class: [migraine-agents]
+  conf: high
+article-37707:
+  fp: bb1b2334ad86
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-37748:
+  fp: 0c8699a1230b
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: high
+article-37755:
+  fp: 9fb14a20f19e
+  drug_class: [other-antidiabetics]
+  conf: high
+article-37779:
+  fp: c8d2faa56487
+  drug_class: [bone-agents, monoclonal-antibodies]
+  conf: high
+article-37873:
+  fp: 410a52727ac3
+  drug_class: [ophthalmic-agents, monoclonal-antibodies]
+  conf: high
+article-37983:
+  fp: 18e5362c50e0
+  drug_class: [antipsychotics]
+  conf: high
+article-38027:
+  fp: 5314f0a2257f
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-38183:
+  fp: 9b584d4e9358
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-38392:
+  fp: 4d7febd06a1c
+  drug_class: [immunosuppressants]
+  conf: high
+article-38403:
+  fp: 04be4bf95d8f
+  drug_class: [vaccines-and-immune-globulins]
+  conf: high
+article-38622:
+  fp: c40da15327bd
+  drug_class: [stimulants-and-adhd]
+  conf: high
+article-38623:
+  fp: ac86eda4d449
+  drug_class: [other-antidiabetics]
+  conf: high
+article-38624:
+  fp: ede897f830b3
+  drug_class: [tetracyclines]
+  conf: high
+article-38735:
+  fp: 3b0fc8d7fa59
+  drug_class: [dermatologic-agents]
+  conf: high
+article-38795:
+  fp: d34f958a2222
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-38808:
+  fp: 03c3c644b3da
+  drug_class: [urologic-agents]
+  conf: high
+article-38809:
+  fp: a243ff56296e
+  drug_class: [hormonal-cancer-therapy]
+  conf: high
+article-38853:
+  fp: 3e29e253fee3
+  drug_class: [antiemetics]
+  conf: high
+article-38855:
+  fp: 1beafd4b05b0
+  drug_class: [antiemetics]
+  conf: high
+article-38856:
+  fp: c2eff881b3ce
+  drug_class: [antiemetics]
+  conf: high
+article-38859:
+  fp: b6fe500a20ac
+  drug_class: [antifungals]
+  conf: high
+article-39306:
+  fp: 44e4d42d3f65
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: high
+article-40477:
+  fp: c06e406bfdeb
+  drug_class: [bone-agents]
+  conf: high
+article-40547:
+  fp: be9fa6f4a8e6
+  drug_class: [ssris-and-snris]
+  conf: high
+article-40743:
+  fp: e7aa3ebf833d
+  drug_class: [corticosteroids]
+  conf: high
+article-40763:
+  fp: 95505bf37549
+  drug_class: [nsaids-and-analgesics]
+  conf: high
+article-41457:
+  fp: e67be91b1437
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: high
+article-41513:
+  fp: c49e41ce1527
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-41577:
+  fp: 474dccc02650
+  drug_class: [antiarrhythmics]
+  conf: high
+article-41623:
+  fp: 70f95efcbab1
+  drug_class: [benzodiazepines]
+  conf: high
+article-41655:
+  fp: f18a294cdea2
+  drug_class: [antiemetics]
+  conf: high
+article-41824:
+  fp: 93ed7ae77abe
+  drug_class: [other-antidiabetics]
+  conf: high
+article-41826:
+  fp: 6eccd8192a77
+  drug_class: [antiplatelets]
+  conf: high
+article-41850:
+  fp: b69635cc73e8
+  drug_class: [nitrates-and-vasodilators]
+  conf: high
+article-42001:
+  fp: 46f8870a76ad
+  drug_class: [incretin-agents]
+  conf: high
+article-42362:
+  fp: e7879b832e07
+  drug_class: [hemostatics-and-blood-products]
+  conf: high
+article-42905:
+  fp: a6252aae5f46
+  drug_class: [other-antidepressants]
+  conf: high
+article-42951:
+  fp: 269f2d0314aa
+  drug_class: [sex-hormones-and-modulators]
+  conf: high
+article-42956:
+  fp: c102543726e5
+  drug_class: [beta-blockers]
+  conf: medium
+article-42962:
+  fp: a1a465229343
+  drug_class: [bronchodilators]
+  conf: high
+article-42966:
+  fp: 13b639c796af
+  drug_class: [acid-suppressants]
+  conf: high
+article-42967:
+  fp: df0d9d0a8de1
+  drug_class: [alpha-agents-and-central-antihypertensives]
+  conf: high
+article-42970:
+  fp: c2671c21b180
+  drug_class: [antifungals]
+  conf: high
+article-42980:
+  fp: c554a4a52863
+  drug_class: [sedative-hypnotics]
+  conf: high
+article-42984:
+  fp: 3e2038077331
+  drug_class: [bone-agents]
+  conf: high
+article-42999:
+  fp: afc1dfc83e63
+  drug_class: [asthma-controllers]
+  conf: high
+article-43010:
+  fp: 32a6edea8525
+  drug_class: [nitrates-and-vasodilators]
+  conf: high
+article-43083:
+  fp: d26bd09f81c6
+  drug_class: [penicillins]
+  conf: high
+article-43312:
+  fp: b6bbc8c1e801
+  drug_class: [general-anesthetics]
+  conf: high
+article-43328:
+  fp: 675c600be023
+  drug_class: [local-anesthetics]
+  conf: high
+article-43329:
+  fp: abd38ed5301b
+  drug_class: [neuromuscular-blockers-and-reversal]
+  conf: high
+article-43447:
+  fp: b1d559c50f18
+  drug_class: [local-anesthetics]
+  conf: high
+article-43508:
+  fp: 47dbf5fbae22
+  drug_class: [pharmacology-concepts]
+  conf: high
+article-43596:
+  fp: e8fc344ef1c9
+  drug_class: [other-antidepressants]
+  conf: high
+article-43668:
+  fp: 9590d9ed1756
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: high
+article-44601:
+  fp: 23fe83499f75
+  drug_class: [sedative-hypnotics]
+  conf: medium
+article-45651:
+  fp: 62e424861ce8
+  drug_class: [antifungals]
+  conf: high
+article-461:
+  fp: 00f19c56a475
+  drug_class: [dermatologic-agents]
+  conf: high
+article-49962:
+  fp: b790245d2b48
+  drug_class: [immunomodulators-and-dmards]
+  conf: high
+article-511:
+  fp: ab57e3f1235e
+  drug_class: [dermatologic-agents]
+  conf: high
+article-55:
+  fp: c0eafd3e670c
+  drug_class: [lipid-lowering]
+  conf: high
+article-56:
+  fp: 396d8964babe
+  drug_class: [lipid-lowering]
+  conf: high
+article-56464:
+  fp: 1b2292b9b7b8
+  drug_class: [anticoagulants]
+  conf: high
+article-57:
+  fp: 0cb8bf8a4003
+  drug_class: [lipid-lowering]
+  conf: high
+article-57164:
+  fp: 57b044373d5b
+  drug_class: [diuretics]
+  conf: high
+article-58:
+  fp: 3c423a176349
+  drug_class: [lipid-lowering]
+  conf: high
+article-58888:
+  fp: ad6bf2b84a52
+  drug_class: [immune-checkpoint-inhibitors, monoclonal-antibodies]
+  conf: high
+article-59:
+  fp: d6b2d76f01db
+  drug_class: [lipid-lowering]
+  conf: high
+article-59092:
+  fp: 0c1902f6e89a
+  drug_class: [antiseizure]
+  conf: high
+article-59881:
+  fp: a5f513e22365
+  drug_class: [antidotes-and-chelators]
+  conf: high
+article-60:
+  fp: 2692b957352d
+  drug_class: [ssris-and-snris]
+  conf: high
+article-60329:
+  fp: 320e27ec4417
+  drug_class: [benzodiazepines, antiseizure]
+  conf: medium
+article-60330:
+  fp: 3077f72548dc
+  drug_class: [antiseizure]
+  conf: high
+article-60879:
+  fp: 8b7f57d5965d
+  drug_class: [cytotoxic-chemotherapy]
+  conf: high
+article-61:
+  fp: 1f65f282aa28
+  drug_class: [lipid-lowering]
+  conf: high
+article-640:
+  fp: 61bb0a7cdc97
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-64046:
+  fp: 6684a366a34d
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-64047:
+  fp: 94fc644fce3e
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-65497:
+  fp: 8b7e4b397725
+  drug_class: [other-antidepressants]
+  conf: high
+article-655:
+  fp: 3e6bdb1474e4
+  drug_class: [beta-blockers]
+  conf: high
+article-657:
+  fp: 0da0ba40f293
+  drug_class: [beta-blockers]
+  conf: high
+article-658:
+  fp: 1fbc7bdf0d17
+  drug_class: [beta-blockers]
+  conf: high
+article-66:
+  fp: 97138c3b9ffd
+  drug_class: [lipid-lowering]
+  conf: high
+article-665:
+  fp: dfc8a05a21d8
+  drug_class: [calcium-channel-blockers]
+  conf: high
+article-68:
+  fp: 026df95f1fe9
+  drug_class: [lipid-lowering]
+  conf: high
+article-70:
+  fp: d550101dd81f
+  drug_class: [lipid-lowering]
+  conf: high
+article-701:
+  fp: 1faf9e68e938
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-704:
+  fp: 12224bee9745
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-706:
+  fp: f4633c66a4c0
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-707:
+  fp: d45b9e7cadd4
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-70908:
+  fp: 9dd8ef10d7a4
+  drug_class: [hemostatics-and-blood-products]
+  conf: high
+article-71:
+  fp: f9eef337f0b1
+  drug_class: [lipid-lowering]
+  conf: high
+article-712:
+  fp: e03f6745196e
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-713:
+  fp: 25b4bf0a58af
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-714:
+  fp: b65a4b94db4c
+  drug_class: [ace-inhibitors-and-arbs]
+  conf: high
+article-74:
+  fp: 692a1e9e0218
+  drug_class: [lipid-lowering]
+  conf: high
+article-74657:
+  fp: 50feba5ef5de
+  drug_class: [hormonal-cancer-therapy]
+  conf: high
+article-77:
+  fp: 818f47c7eeb5
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-79314:
+  fp: 9eaad9b5791c
+  drug_class: [immunomodulators-and-dmards, cytotoxic-chemotherapy]
+  conf: high
+article-79871:
+  fp: 4e4d8233e5b2
+  drug_class: [antidotes-and-chelators]
+  conf: high
+article-80715:
+  fp: b7c5854d01d0
+  drug_class: [antiemetics]
+  conf: medium
+article-80717:
+  fp: d02e3b0a957e
+  drug_class: [antiplatelets]
+  conf: high
+article-81550:
+  fp: a054b87ff776
+  drug_class: [antivirals]
+  conf: high
+article-82078:
+  fp: 491b71153d57
+  drug_class: [incretin-agents]
+  conf: high
+article-85735:
+  fp: 40b0dee058a3
+  drug_class: [antipsychotics]
+  conf: high
+article-85736:
+  fp: 1674b20de565
+  drug_class: [antiparkinson]
+  conf: high
+article-86483:
+  fp: 23280d986c04
+  drug_class: [anticoagulants]
+  conf: high
+article-87552:
+  fp: 3e68b7dac2db
+  drug_class: [hematopoietic-agents]
+  conf: high
+article-88058:
+  fp: b7f62c7742ce
+  drug_class: [antipsychotics]
+  conf: high
+article-88698:
+  fp: 9f06d123b574
+  drug_class: [corticosteroids]
+  conf: high
+article-88826:
+  fp: d54d8695954c
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-88827:
+  fp: bbf5eb210f7d
+  drug_class: [antidotes-and-chelators]
+  conf: high
+article-88828:
+  fp: 59c19fa6e669
+  drug_class: [anticoagulants]
+  conf: high
+article-89427:
+  fp: c7f11c736900
+  drug_class: [hemostatics-and-blood-products, monoclonal-antibodies]
+  conf: high
+article-89548:
+  fp: 53ab4e9d1d22
+  drug_class: [diuretics]
+  conf: high
+article-90088:
+  fp: cf4fa45a0843
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: high
+article-90870:
+  fp: c963b77162d9
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-90909:
+  fp: 3b355374381c
+  drug_class: [vasopressors-and-inotropes]
+  conf: high
+article-91313:
+  fp: 42b382689d5d
+  drug_class: [hemostatics-and-blood-products]
+  conf: high
+article-91317:
+  fp: bea65334847b
+  drug_class: [vitamins-and-minerals]
+  conf: high
+article-91507:
+  fp: 1cc9bc7c46d2
+  drug_class: [herbal-and-supplements]
+  conf: high
+article-917:
+  fp: edc1ed94adb6
+  drug_class: [dermatologic-agents]
+  conf: high
+article-919:
+  fp: eef4abd67a72
+  drug_class: [dermatologic-agents]
+  conf: high
+article-920:
+  fp: d5176a3da1eb
+  drug_class: [kinase-inhibitors]
+  conf: high
+article-923:
+  fp: 1fdf7d9e98a7
+  drug_class: [other-antidiabetics]
+  conf: high
+article-924:
+  fp: c9769c0104f2
+  drug_class: [adrenergic-agents]
+  conf: high
+article-929:
+  fp: 11395e9a16c4
+  drug_class: [alpha-agents-and-central-antihypertensives]
+  conf: high
+article-93108:
+  fp: 68d56c944f4c
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: high
+article-93165:
+  fp: 1260f332c5a1
+  drug_class: [antituberculars]
+  conf: high
+article-93347:
+  fp: d6ff21a52b77
+  drug_class: [other-antidiabetics]
+  conf: high
+article-94310:
+  fp: 006b4b86a173
+  drug_class: [bronchodilators]
+  conf: high
+article-96015:
+  fp: 434374f8b043
+  drug_class: [antifungals]
+  conf: high
+article-97357:
+  fp: 3588ec8aa2e6
+  drug_class: [muscle-relaxants]
+  conf: high
+article-97358:
+  fp: 4a49f38fc033
+  drug_class: [antifungals]
+  conf: high
+article-97463:
+  fp: 03abbcc5e3df
+  drug_class: [urologic-agents, nitrates-and-vasodilators]
+  conf: medium
+article-98653:
+  fp: 51f9c6c79318
+  drug_class: [immunomodulators-and-dmards, monoclonal-antibodies]
+  conf: medium

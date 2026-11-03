@@ -1,0 +1,6 @@
+# Deterministic output (byte-identical vaults) needs LF in sources and data; build.cmd needs CRLF.
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.gz binary
+*.png binary
+*.jpg binary

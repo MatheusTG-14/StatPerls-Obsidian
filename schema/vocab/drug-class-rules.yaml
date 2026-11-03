@@ -1,0 +1,19 @@
+# Drug-class heuristics for articles with no valid agent answer (portable installer spec 3.4).
+# Ordered: the first matching rule wins. pattern = regular expression, case-insensitive, searched in the article title.
+# class must be a slug of drug-classes.yaml (checked at load). Specific names go before the suffix rules they would trip.
+- {pattern: '^nystatin', class: antifungals}
+- {pattern: 'aripiprazole|brexpiprazole', class: antipsychotics}
+- {pattern: 'olol\b', class: beta-blockers}
+- {pattern: '(pril|sartan)\b', class: ace-inhibitors-and-arbs}
+- {pattern: 'statin\b', class: lipid-lowering}
+- {pattern: 'mab\b', class: monoclonal-antibodies}
+- {pattern: 'cillin\b', class: penicillins}
+- {pattern: '^cef', class: cephalosporins}
+- {pattern: 'floxacin\b', class: fluoroquinolones}
+- {pattern: 'prazole\b', class: acid-suppressants}
+- {pattern: 'conazole\b', class: antifungals}
+- {pattern: 'dipine\b', class: calcium-channel-blockers}
+- {pattern: 'gliptin\b', class: incretin-agents}
+- {pattern: 'gliflozin\b', class: other-antidiabetics}
+- {pattern: 'tidine\b', class: acid-suppressants}
+- {pattern: '(azepam|azolam)\b', class: benzodiazepines}

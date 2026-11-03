@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-900001" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-title-group><book-title>StatPearls</book-title></book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr"><month>01</month><year>2026</year></pub-date>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><license-p>License text.</license-p></license>
+    </permissions>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group><title>Synthetic Disease: Test</title></title-group>
+      <contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Doe</surname><given-names>Jane A.</given-names></name><aff>Test University</aff></contrib></contrib-group>
+      <contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Roe</surname><given-names>Rick</given-names></name></contrib></contrib-group>
+      <pub-history><date date-type="updated"><day>5</day><month>3</month><year>2025</year></date></pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-900001.s1" sec-type="Continuing Education Activity">
+        <title>Continuing Education Activity</title>
+        <p>Alpha   beta
+          gamma.</p>
+        <p>
+<bold>Objectives:</bold>
+</p>
+        <list list-type="bullet">
+          <list-item><p>First objective.</p></list-item>
+          <list-item><p>Second objective.</p>
+            <list list-type="order"><list-item><p>Nested one.</p></list-item></list>
+          </list-item>
+        </list>
+        <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=900001">Access free multiple choice questions on this topic.</ext-link>
+</p>
+      </sec>
+      <sec id="article-900001.s2" sec-type="Introduction">
+        <title>Introduction</title>
+        <p>Synthetic Other Topic is related and see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/books/NBK900002/">this article</ext-link> and <italic toggle="yes">Na</italic><sup>+</sup> H<sub>2</sub>O with *stars* and [brackets] and a | pipe.<xref ref-type="bibr" rid="article-900001.r1">[1]</xref><xref ref-type="bibr" rid="article-900001.r2">[2]</xref></p>
+        <fig id="article-900001.image.f1" position="float" orientation="portrait">
+          <label>Figure 1</label>
+          <caption><p>Inline Histology. H&amp;E stain at 40x. Contributed by J Doe, MD</p></caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Case_Image" mimetype="image" position="float" orientation="portrait"/>
+        </fig>
+        <table-wrap id="article-900001.table1" position="float" orientation="portrait">
+          <caption><title><bold>Table 1</bold>. Scores</title></caption>
+          <table><tbody>
+            <tr><td rowspan="1" colspan="1"><bold>Score</bold></td><td rowspan="1" colspan="1"><bold>Meaning</bold></td></tr>
+            <tr><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">None | nil</td></tr>
+          </tbody></table>
+        </table-wrap>
+        <code position="float" orientation="portrait" xml:space="preserve">  keep   this</code>
+      </sec>
+      <sec id="article-900001.s3" sec-type="Review Questions">
+        <title>Review Questions</title>
+        <list list-type="bullet"><list-item><p><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/x">Access free multiple choice questions on this topic.</ext-link></p></list-item></list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-900001.s4">
+        <fig id="article-900001.image.f2" position="float" orientation="portrait">
+          <label>Figure 2</label>
+          <caption><p>Gallery Image <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://commons.wikimedia.org/x">Public Domain</ext-link>, via Wikimedia Commons</p></caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="case_image" mimetype="image" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-900001.s5">
+        <fig id="article-900001.image.f3" position="float" orientation="portrait">
+          <label>Video 1</label>
+          <caption><p>A Video. Contributed by R Roe</p></caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="clip.mp4" mime-subtype="mp4" mimetype="video" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-900001.s6">
+        <title>References</title>
+        <ref id="article-900001.r1"><label>1</label><element-citation publication-type="journal">
+          <person-group><name><surname>Smith</surname><given-names>A</given-names></name><name><surname>Jones</surname><given-names>B</given-names></name></person-group>
+          <article-title>A study of things.</article-title><source>J Test</source><year>2020</year><month>Jan</month><volume>12</volume><issue>3</issue><fpage>45</fpage><page-range>45-50</page-range>
+          <pub-id pub-id-type="pmid">11111111</pub-id></element-citation></ref>
+        <ref id="article-900001.r2"><label>2</label><element-citation publication-type="book">
+          <person-group><collab>Some Committee</collab></person-group>
+          <chapter-title>A chapter</chapter-title><source>A Book</source><publisher-loc>City</publisher-loc><publisher-name>Pub</publisher-name><year>2019</year>
+          <pub-id pub-id-type="pmid">22222222</pub-id></element-citation></ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

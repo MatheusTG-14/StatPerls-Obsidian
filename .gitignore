@@ -1,0 +1,38 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Content: never tracked (StatPearls is CC BY-NC-ND; see NOTICE.md)
+data/
+vault/
+backups/
+tests/fixtures/
+*.tar.gz
+
+# Built programs: they bundle the data in state/ and schema/; build them locally
+*.exe
+*.pyz
+statpearls-vault-corrections.zip
+dist/
+.build/
+.build-venv/
+.statpearls-exe-source
+
+# Obsidian plugin: build output and dependencies (plugin/main.js is the committed copy the installer ships)
+obsidian-plugin/node_modules/
+obsidian-plugin/main.js
+
+# Python / editors / OS
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.superpowers/
+.claude/
+.DS_Store
+Thumbs.db

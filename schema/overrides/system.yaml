@@ -1,0 +1,5 @@
+# Hand-curated category overrides: article_id: slug (always wins over the MeSH vote and the agent suggestions).
+article-16989: endocrine-metabolic   # vote: near-tie endocrine / urinary / genetic
+article-28932: immunology            # vote: drug-induced branch
+article-136055: obgyn                # vote: urinary
+article-141870: musculoskeletal      # vote: injuries

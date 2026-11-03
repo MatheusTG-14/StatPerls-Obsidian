@@ -1,0 +1,14 @@
+[
+  {"text": "Sjögren Syndrome", "tokens": ["sjogren", "syndrome"]},
+  {"text": "α-Thalassemia", "tokens": ["alpha", "thalassemia"]},
+  {"text": "The ACE-inhibitors!", "tokens": ["ace", "inhibitors"]},
+  {"text": "Vitamin B12", "tokens": ["vitamin", "b12"]},
+  {"text": "?!", "tokens": []},
+  {"text": "β-Blockers and κ light chains", "tokens": ["beta", "blockers", "kappa", "light", "chains"]},
+  {"text": "Treatment / Management", "tokens": ["treatment", "management"]},
+  {"text": "Café-au-lait spots", "tokens": ["cafe", "au", "lait", "spots"]},
+  {"text": "A 5 mg dose of the drug", "tokens": ["mg", "dose", "drug"]},
+  {"text": "IgG4-related disease", "tokens": ["igg4", "related", "disease"]},
+  {"text": "γδ T cells", "tokens": ["gammadelta", "cells"]},
+  {"text": "5 µg dose", "tokens": ["mug", "dose"]}
+]

@@ -1,0 +1,251 @@
+# Frozen subcategory vocabulary (DEC-20). Category slug -> ordered subcategory folder names.
+# Merged after the first agent pass (under 15 articles each, DEC-20): Dementia + Movement Disorders;
+# Pituitary + Adrenal + Reproductive Endocrinology; Pediatric Oncology -> Other Oncology.
+# DEC-21: Neuroanatomy and Neurophysiology split in three; lists added for every other category.
+# Subcategories are tags (system/<cat>/<sub>), not folders (DEC-21).
+# Subcategory slug = slugified folder name. Every category with subcategories ends with "Other <Category>".
+cardiovascular:
+  - Arrhythmias and ECG
+  - Coronary Disease and Acute Coronary Syndromes
+  - Heart Failure, Cardiomyopathy and Pericardium
+  - Valvular and Structural Heart Disease
+  - Congenital Heart Disease
+  - Aorta and Peripheral Arterial Disease
+  - Venous Disease and Thrombosis
+  - Hypertension, Shock and Hemodynamics
+  - Cardiac Procedures and Imaging
+  - Cardiovascular Pharmacology
+  - Cardiovascular Anatomy and Physiology
+  - Other Cardiovascular
+nervous:
+  - Stroke and Cerebrovascular Disease
+  - Epilepsy and Seizures
+  - Headache and Facial Pain
+  - Neurodegeneration and Movement Disorders
+  - Demyelinating and Neuroimmune Disease
+  - Neuromuscular and Peripheral Nerve
+  - Spine and Spinal Cord
+  - Neurotrauma and Neurocritical Care
+  - Cranial Nerves and Neuro-ophthalmology
+  - Sleep
+  - Pediatric and Developmental Neurology
+  - Pain and Regional Anesthesia
+  - Neuropharmacology
+  - Brain and Brainstem Anatomy
+  - Cranial, Peripheral and Autonomic Nerve Anatomy
+  - Neurophysiology and Neurohistology
+  - Other Nervous System
+musculoskeletal:
+  - Shoulder and Upper Limb
+  - Hip and Lower Limb
+  - Spine and Back
+  - Fractures
+  - Arthritis and Rheumatology
+  - Bone Disease and Metabolism
+  - Pediatric Orthopedics
+  - Sports Medicine and Soft Tissue
+  - Muscle Disorders
+  - Manual Therapy and Rehabilitation
+  - Other Musculoskeletal
+infectious:
+  - Antimicrobial Pharmacology
+  - Bacterial Infections
+  - Tuberculosis and Mycobacteria
+  - Viral Infections
+  - HIV
+  - Fungal Infections
+  - Parasitic and Tropical
+  - Sexually Transmitted Infections
+  - Sepsis and Systemic Infection
+  - Healthcare-Associated Infection and Infection Control
+  - Microbiology and Diagnostics
+  - Other Infectious Disease
+oncology:
+  - Breast
+  - Gastrointestinal and Liver
+  - Lung and Thoracic
+  - Head and Neck
+  - Genitourinary
+  - Gynecologic
+  - Skin Cancer
+  - Hematologic Malignancies
+  - Central Nervous System Tumors
+  - Bone and Soft Tissue Sarcoma
+  - Endocrine and Neuroendocrine Tumors
+  - Cancer Therapy
+  - Supportive and Palliative Care
+  - Cancer Biology and Genetics
+  - Other Oncology
+endocrine-metabolic:
+  - Diabetes
+  - Thyroid
+  - Pituitary, Adrenal and Gonads
+  - Parathyroid and Calcium
+  - Electrolytes and Acid-Base
+  - Nutrition and Vitamins
+  - Obesity and Lipids
+  - Inborn Errors of Metabolism
+  - Endocrine Physiology
+  - Other Endocrine and Metabolism
+eye:
+  - Cornea and External Eye
+  - Lens and Cataract
+  - Glaucoma
+  - Retina and Vitreous
+  - Uveitis
+  - Neuro-ophthalmology and Strabismus
+  - Eyelid, Orbit and Lacrimal
+  - Pediatric Ophthalmology
+  - Refraction and Examination
+  - Ocular Pharmacology
+  - Eye Anatomy and Physiology
+  - Other Eye
+digestive:
+  - Esophagus and Stomach
+  - Small Bowel and Malabsorption
+  - Colon, Rectum and Anus
+  - Inflammatory Bowel Disease
+  - Liver
+  - Biliary Tract
+  - Pancreas
+  - GI Bleeding and Emergencies
+  - Endoscopy and Procedures
+  - Abdominal Wall and Hernia
+  - GI Pharmacology
+  - GI Anatomy and Physiology
+  - Other Digestive
+skin:
+  - Inflammatory Dermatoses
+  - Blistering and Autoimmune Skin Disease
+  - Skin Infections and Infestations
+  - Hair and Nails
+  - Pigmentation Disorders
+  - Benign Skin Lesions
+  - Drug Reactions and Urticaria
+  - Wounds, Ulcers and Burns
+  - Dermatologic Procedures and Cosmetic
+  - Pediatric Dermatology
+  - Skin Anatomy and Physiology
+  - Other Skin
+respiratory:
+  - Asthma and COPD
+  - Interstitial Lung Disease
+  - Pulmonary Vascular Disease
+  - Pleural Disease
+  - Respiratory Failure and Ventilation
+  - Airway Management
+  - Pediatric and Neonatal Respiratory
+  - Occupational and Environmental Lung Disease
+  - Pulmonary Function and Diagnostics
+  - Respiratory Pharmacology
+  - Respiratory Anatomy and Physiology
+  - Other Respiratory
+trauma:
+  - Head and Neck Trauma
+  - Chest Trauma
+  - Abdominal and Pelvic Trauma
+  - Extremity and Soft Tissue Injury
+  - Burns and Electrical Injury
+  - Environmental Injury
+  - Trauma Systems and EMS
+  - Wound Care
+  - Pediatric and Non-accidental Trauma
+  - Other Trauma
+toxicology:
+  - Drug Overdoses
+  - Alcohols
+  - Envenomations and Bites
+  - Plants and Mushrooms
+  - Metals and Chemicals
+  - Gases and Inhalants
+  - Antidotes and Decontamination
+  - Environmental and Occupational Exposures
+  - Other Toxicology
+mental-health:
+  - Mood Disorders
+  - Anxiety, Trauma and Stress Disorders
+  - Psychotic Disorders
+  - Substance Use Disorders
+  - Neurodevelopmental Disorders
+  - Personality Disorders
+  - Eating Disorders
+  - Child and Adolescent Psychiatry
+  - Psychotherapy and Behavioral Interventions
+  - Psychopharmacology
+  - Other Mental Health
+kidney-urinary:
+  - Acute Kidney Injury
+  - Chronic Kidney Disease, Dialysis and Transplant
+  - Glomerular Disease
+  - Stones and Obstruction
+  - Bladder and Voiding
+  - Prostate and Male Genital
+  - Urologic Procedures
+  - Renal and Urologic Anatomy and Physiology
+  - Other Kidney and Urinary
+hematology:
+  - Anemias
+  - Hemoglobinopathies
+  - Bleeding Disorders
+  - Thrombosis and Anticoagulation
+  - Platelet Disorders
+  - White Cell Disorders
+  - Transfusion Medicine
+  - Hematology Lab and Diagnostics
+  - Other Hematology
+basic-science:
+  - Biochemistry and Molecular Biology
+  - Cell Biology and Histology
+  - Genetics
+  - Embryology
+  - Physiology
+  - Pharmacology Principles
+  - Gross Anatomy
+  - Other Basic Sciences
+obgyn:
+  - Normal Pregnancy and Prenatal Care
+  - Pregnancy Complications
+  - Labor, Delivery and Postpartum
+  - Menstrual and Benign Gynecologic Disorders
+  - Infertility and Contraception
+  - Pelvic Floor and Urogynecology
+  - Gynecologic Procedures
+  - Breast and Lactation
+  - Other Obstetrics and Gynecology
+ent:
+  - Ear and Hearing
+  - Nose and Sinuses
+  - Throat and Larynx
+  - Head and Neck Surgery
+  - Other ENT
+oral-dental:
+  - Teeth and Dental Disease
+  - Periodontal and Oral Mucosa
+  - Oral and Maxillofacial Surgery
+  - Dental Procedures and Materials
+  - Other Oral and Dental
+congenital-genetic:
+  - Chromosomal Disorders
+  - Single-Gene Syndromes
+  - Congenital Malformations
+  - Genetic Testing and Counseling
+  - Other Congenital and Genetic
+immunology:
+  - Allergy and Anaphylaxis
+  - Immunodeficiency
+  - Autoimmune and Inflammatory Disease
+  - Vaccines and Immunization
+  - Immunosuppressive and Biologic Therapy
+  - Other Immunology and Allergy
+general:
+  - Professional Practice and Communication
+  - Ethics and Law
+  - Medical Education and Simulation
+  - Quality, Safety and Health Systems
+  - Public Health and Epidemiology
+  - Research Methods and Statistics
+  - EMS Operations
+  - Perioperative and Anesthesia Practice
+  - Diagnostic Methods and Imaging
+  - Symptoms and Signs
+  - Other General and Professional
