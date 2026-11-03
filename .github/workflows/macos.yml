@@ -1,0 +1,56 @@
+# Builds the macOS program (Apple Silicon) and attaches it to the GitHub release for the tag.
+# Run it by pushing a tag such as v0.1.0, or by hand from the Actions tab (the zip is then an artifact).
+name: Build macOS app
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  macos:
+    runs-on: macos-14   # Apple Silicon
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install build tools
+        run: python -m pip install -r build-requirements.txt pytest
+
+      - name: Run the tests (informational on macOS)
+        continue-on-error: true
+        run: python -m pytest -q
+
+      - name: Build
+        run: python -m PyInstaller --noconfirm --clean --distpath dist --workpath .build statpearls-vault.spec
+
+      - name: Package
+        run: |
+          mkdir -p "pkg/StatPearls Vault"
+          cp dist/statpearls-vault "pkg/StatPearls Vault/statpearls-vault"
+          cp packaging/macos/start.command "pkg/StatPearls Vault/Start StatPearls Vault.command"
+          cp packaging/macos/READ-ME-FIRST.txt "pkg/StatPearls Vault/READ-ME-FIRST.txt"
+          chmod +x "pkg/StatPearls Vault/statpearls-vault" "pkg/StatPearls Vault/Start StatPearls Vault.command"
+          ditto -c -k --keepParent "pkg/StatPearls Vault" statpearls-vault-macos-arm64.zip
+          shasum -a 256 statpearls-vault-macos-arm64.zip | tee statpearls-vault-macos-arm64.zip.sha256
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: statpearls-vault-macos-arm64
+          path: |
+            statpearls-vault-macos-arm64.zip
+            statpearls-vault-macos-arm64.zip.sha256
+
+      - name: Attach to the release
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1 || gh release create "$GITHUB_REF_NAME" --draft --title "$GITHUB_REF_NAME" --notes "See the description."
+          gh release upload "$GITHUB_REF_NAME" statpearls-vault-macos-arm64.zip statpearls-vault-macos-arm64.zip.sha256 --clobber

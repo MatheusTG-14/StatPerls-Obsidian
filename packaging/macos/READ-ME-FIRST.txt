@@ -1,0 +1,20 @@
+StatPearls Vault for Mac
+========================
+
+FIRST TIME ONLY: macOS blocks programs from the internet that are not signed by Apple.
+This one is not signed. To allow it:
+
+  1. Open the Terminal app (press Cmd+Space, type "Terminal", press Return).
+  2. Type  xattr -dr com.apple.quarantine   then a space, then drag this whole
+     "StatPearls Vault" folder onto the Terminal window, and press Return.
+
+Then double-click "Start StatPearls Vault.command" and choose Install.
+(Alternative: Control-click the file, choose Open, then Open again.)
+
+Pick a folder that is NOT in iCloud Drive, Dropbox or OneDrive, for example a new
+folder in your home folder. You need about 10 GB free and Obsidian closed.
+The first install takes about an hour.
+
+This program contains no StatPearls text: it downloads the articles from the
+U.S. National Library of Medicine onto your Mac. Do not share the vault.
+Educational use only, not for medical decisions about patients.

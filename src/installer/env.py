@@ -18,6 +18,7 @@ NEEDED_BYTES = 10 * (1 << 30)
 _CLOUD_PARTS = (
     ("onedrive", "OneDrive"), ("dropbox", "Dropbox"), ("google drive", "Google Drive"), ("my drive", "Google Drive"),
     ("googledrive", "Google Drive"), ("icloud drive", "iCloud"), ("iclouddrive", "iCloud"),
+    ("mobile documents", "iCloud"), ("com~apple~clouddocs", "iCloud"),  # macOS iCloud Drive
 )
 
 

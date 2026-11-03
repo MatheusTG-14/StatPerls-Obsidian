@@ -227,7 +227,7 @@ def preflight(ctx, mode):
     if prov:
         raise UserError(f"The folder {root} is inside {prov}, which uploads files to the cloud.",
                         "StatPearls is licensed for private study only and must not be shared or synced. "
-                        "Choose a folder outside it, for example C:\\StatPearls Vault.", log=False)
+                        f"Choose a folder outside it, for example {example_folder()}.", log=False)
     free = env.free_bytes(root)
     if free < env.NEEDED_BYTES:
         raise UserError(f"Not enough free disk space: {fmt_bytes(free)} free, about {fmt_bytes(env.NEEDED_BYTES)} needed.",
@@ -738,8 +738,12 @@ HELP_COMMANDS = [
     ("agent-prepare", "prepare batches for articles that were placed automatically"),
     ("agent-collect MODEL", "collect the answers for those batches"),
 ]
+def example_folder():
+    return r"C:\StatPearls Vault" if os.name == "nt" else str(Path.home() / "StatPearls Vault")
+
+
 def help_examples():
-    return [rf'{prog()} install "C:\StatPearls Vault"', rf'{prog()} update --folder "C:\StatPearls Vault"']
+    return [f'{prog()} install "{example_folder()}"', f'{prog()} update --folder "{example_folder()}"']
 
 
 def show_help(console):

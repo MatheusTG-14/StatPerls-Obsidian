@@ -11,7 +11,7 @@ This repository contains **only the program and its own metadata** (categories, 
 
 ## What you need
 
-- Windows 10/11 for the `.exe`; or Python 3.12+ on any system for running from source.
+- Windows 10/11 for the `.exe`, an Apple Silicon Mac for the macOS build, or Python 3.12+ on any system for the `.pyz` / running from source.
 - [Obsidian](https://obsidian.md) and an internet connection.
 - About 5 GB of free disk. Because the PubMed map is fetched from NCBI, a first install takes roughly an hour (download of about 2 GB, then the build).
 - Obsidian **closed** on the vault while installing or updating.
@@ -42,6 +42,14 @@ build.cmd
 It sets up the pinned build tools in `.build-venv` and writes `dist\statpearls-vault.exe`. The program is not
 code-signed, so Windows SmartScreen may say "Windows protected your PC": choose *More info*, then *Run anyway*.
 Use it exactly like `python entry.py` (double-click for the menu).
+
+### macOS
+
+Download `statpearls-vault-macos-arm64.zip` from the latest release (Apple Silicon Macs). It is built by
+[GitHub Actions](.github/workflows/macos.yml) when a version tag is pushed. The program is not signed or
+notarized, so macOS blocks it the first time: follow `READ-ME-FIRST.txt` inside the zip (one Terminal command),
+then double-click `Start StatPearls Vault.command`. On an Intel Mac, or if you prefer, install Python 3.12+ from
+python.org and use the `.pyz` below. The Mac build has not been tested by the author on real hardware yet.
 
 ### Portable `.pyz`
 

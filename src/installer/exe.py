@@ -80,7 +80,7 @@ Do not edit files here: change the repository and run `bundle-exe` again (it rep
 
 def requirements():
     return (Path(__file__).with_name("requirements.txt").read_text(encoding="utf-8").strip().splitlines()
-            + [f"pyinstaller=={PYINSTALLER}"])
+            + [f"pyinstaller=={PYINSTALLER}", "certifi==2026.10.23"])  # certifi: CA bundle for the frozen build on macOS
 
 
 def stage(root, dest):
